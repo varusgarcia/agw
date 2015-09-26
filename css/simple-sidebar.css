@@ -73,6 +73,7 @@
 
 
 
+.sidebar-nav li a:active,
 .sidebar-nav li a:focus {
     text-decoration: none;
 }
@@ -90,6 +91,18 @@
     color: #fff;
     background: none;
 }
+#content{
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin: auto;
+  width: 70%;
+  padding-top:  100px;
+
+
+
+}
 
 
 #menu-open {
@@ -99,12 +112,11 @@
 
 #menu-open-button {
     position : fixed; top: 0px;
-    position : fixed; left: 20px;
 
 }
 
 #menu-close-button {
-    position : absolute; right: 10px;
+    position : absolute; right: 0px;
 }
 
 
@@ -141,6 +153,10 @@
         width: 40%;
         margin-left:30% ;
         margin-right: 30%;
+
     }
+
+
+
 
 }
