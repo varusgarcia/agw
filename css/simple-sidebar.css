@@ -91,18 +91,7 @@
     color: #fff;
     background: none;
 }
-#content{
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-  margin: auto;
-  width: 70%;
-  padding-top:  100px;
 
-
-
-}
 
 
 #menu-open {
@@ -116,7 +105,7 @@
 }
 
 #menu-close-button {
-    position : absolute; right: 0px;
+    position : absolute; right: 20px;
 }
 
 
