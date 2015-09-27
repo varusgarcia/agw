@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: 'moonFlower';
+    src: local('fonts/moon_flower-webfont.ttf');
+}
+
 #wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
@@ -20,20 +25,14 @@
     overflow-y: auto;
     background: #F4F4F4;
     font-size: 50px;
-    font-family: MoonFlower;
+    font-family: moonFlower;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
     border-right: solid #E6E6E6;
-}
 
-#content{
-  padding-top:  100px;
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+
 }
 
 /*#wrapper.toggled #sidebar-wrapper {
@@ -102,41 +101,15 @@
 
 #menu-open-button {
     position : fixed; top: 0px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    position : fixed; left: 20px;
->>>>>>> master
-=======
->>>>>>> master
 
 }
 
 #menu-close-button {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    position : absolute; right: -30px;
-=======
-    position : absolute; right: 10px;
->>>>>>> master
-=======
-    position : absolute; right: 0px;
->>>>>>> master
-=======
     position : absolute; right: 20px;
->>>>>>> master
 }
 
 
 @media(min-width:768px) {
-
-
-    #content{
-      margin-left: 15%;
-      margin-right: 15%;
-      width: 70%;
-    }
     #wrapper {
         padding-left: 300px;
     }
@@ -163,26 +136,16 @@
         margin-right: 0;
     }
     #wrapper.menu-open #menu-open {
-        position : fixed; top: 20px;
+        position : relative; top: 20px;
     }
-<<<<<<< HEAD
-=======
     img.cover-main{
         width: 40%;
         margin-left:30% ;
         margin-right: 30%;
 
     }
->>>>>>> master
 
 
 
 
 }
-
-@media(min-width:1200px){
-  #content{
-    margin-left: 20%;
-    margin-right: 20%;
-    width: 60%;
-  }
