@@ -17,12 +17,7 @@
   font-size: 50px;
   font-family: moonFlower;
 }
-.tags{
-  text-align: right;
-  position: absolute;
-  bottom: 0;
-  padding-right: 20px;
-}
+
 
 
 
@@ -30,13 +25,16 @@
     position:relative;
     overflow:hidden;
     border:none;
+    border-radius: 20px;
+
 }
 
 .caption {
     position:absolute;
     top:0px;
     right:0px;
-    background:rgba(255, 255, 255, 0.75);
+    background:rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
     width:100%;
     height:100%;
     padding:20%;
@@ -47,4 +45,46 @@
 .cover-main {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.tag_search p{
+  display: inline;
+  border-style: solid;
+  border-width: 4px;
+  background: #EFEFEF;
+  border-color: #EFEFEF;
+  color: #7F7F7F;
+  border-radius: 200px
+}
+
+.tag_search h6{
+  display: inline;
+}
+.tag_search_showall p{
+  display: inline;
+  border-style: solid;
+  border-width: 4px;
+  background: #7F7F7F;
+  border-color: #7F7F7F;
+  color: #EFEFEF;
+  border-radius: 200px
+}
+.tag_names p{
+  display: inline;
+  border-style: solid;
+  border-width: 4px;
+  background: #7F7F7F;
+  border-color: #7F7F7F;
+  color: #EFEFEF;
+  border-radius: 200px
+}
+.tag_names{
+  text-align: right;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+
+}
+
+.tag_search{
+  padding-bottom: 20px;
 }

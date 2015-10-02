@@ -32,7 +32,6 @@
 
      <div id="wrapper">
 
-         <!-- Sidebar -->
          <div id="sidebar-wrapper">
              <ul class="sidebar-nav">
 
@@ -60,68 +59,89 @@
                  <li>
              </ul>
          </div>
-         <!-- /#sidebar-wrapper -->
 
-         <!-- Page Content -->
          <div id="page-content-wrapper">
              <div class="container-fluid">
                  <img class="col-lg-6 cover-main" src="assets/images/projects_title.svg" alt="logo" />
+                 <div class="tag_search">
+                   <h6>Show only:</h6>
+                   <a href="#slider" id="slider_tag_search"  style="text-decoration: none">
+                     <p>#slider</p>
+                   </a>
+                   <a href="#hyperlapse" id="hyperlapse_tag_search" style="text-decoration: none">
+                     <p>#hyperlapse</p>
+                   </a>
+                   <a href="#video" id="video_tag_search" style="text-decoration: none">
+                     <p>#video</p>
+                   </a>
+                   <a href="#diy" id="diy_tag_search" style="text-decoration: none">
+                     <p>#diy</p>
+                   </a>
+                   <a href="#showall" id="showall_tag_search" class="tag_search_showall" style="text-decoration: none">
+                     <p>Show all</p>
+                   </a>
+                 </div>
                    <div class="row">
-                     <div class="col-lg-4">
+                     <div class="col-lg-4 tag_display hyperlapse_tag video_tag">
                        <div class="thumbnail">
                          <a href="#">
                            <div class="caption">
-                             <h1>Hyperlapse Tutorial</h1>
-                             <p>Here I will show you how to achive a professional finish in your Hyperlapses</p>
+                             <div class="caption">
+                               <div class="caption_title"
+                                 <h1>Hyperlapse Tutorial</h1>
+                               </div>
+                               <div class="caption_text"
+                                 <p>Here I will show you how to achive a professional finish in your Hyperlapses.</p>
+                               </div>
+                               <div class="tag_names">
+                                 <p>#hyperlapse</p>
+                                 <p>#video</p>
+                               </div>
+                             </div>
                            </div>
                          </a>
-                         <img src="assets/images/projects_hyperlapse.png" alt="..." border="5">
+                         <img src="assets/images/projects_hyperlapse.png" alt="...">
                        </div>
                      </div>
-                     <div class="col-lg-4">
+                     <div class="col-lg-4 tag_display slider_tag diy_tag video_tag">
                        <div class="thumbnail">
                          <a href="#">
                            <div class="caption">
-                             <div class="caption_title"
-                               <h1>Mini Slider Tutorial</h1>
-                             </div>
-                             <div class="caption_text"
-                               <p>Here I will show you how you can do your own slider for lightweight cameras such as GoPro and compact cameras.</p>
-                             </div>
-                             <div class="tags slider_tag diy_tag video_tag">
-                               <p>#slider #diy #video</p>
+                             <div class="caption">
+                               <div class="caption_title"
+                                 <h1>Mini Slider Tutorial</h1>
+                               </div>
+                               <div class="caption_text"
+                                 <p>Here I will show you how you can do your own slider for lightweight cameras such as GoPro and compact cameras.</p>
+                               </div>
+                               <div class="tag_names">
+                                 <p>#slider</p>
+                                 <p>#diy</p>
+                                 <p>#video</p>
+                               </div>
                              </div>
                            </div>
                          </a>
                          <img src="assets/images/projects_slider.png" alt="..." border="5">
                        </div>
                      </div>
+                   </div>
+                   <div id="menu-open-button">
+                     <a href="#menu-open"  id="menu-open">
+                       <img src="assets/images/menu-open.png" alt="logo" />
+                     </a>
+                   </div>
+                </div>
+              </div>
+            </div>
 
-               <div id="menu-open-button">
-                 <a href="#menu-open"  id="menu-open">
-                   <img src="assets/images/menu-open.png" alt="logo" />
-                 </a>
-               </div>
-
-
-         </div>
-             </div>
-         </div>
-         <!-- /#page-content-wrapper -->
-
-     </div>
-     <!-- /#wrapper -->
-
-     <!-- jQuery -->
      <script src="js/jquery.js"></script>
 
-     <!-- Bootstrap Core JavaScript -->
      <script src="js/bootstrap.min.js"></script>
 
-     <!-- Menu Toggle Script -->
     <script src="js/animations.js"></script>
 
-     
+
 
 
  </body>
