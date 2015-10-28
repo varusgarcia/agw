@@ -1,8 +1,4 @@
 
-@font-face {
-    font-family: 'moonFlower';
-    src: local('fonts/moon_flower-webfont.ttf');
-}
 
 #wrapper {
     padding-left: 0;
@@ -23,9 +19,9 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #F4F4F4;
-    font-size: 50px;
-    font-family: moonFlower;
+    background: #EFEFEF;
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;

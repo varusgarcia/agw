@@ -12,10 +12,10 @@ $("[rel='tooltip']").tooltip();
 
 $('.thumbnail').hover(
     function(){
-        $(this).find('.caption').fadeIn(500);
+        $(this).find('.caption').fadeIn(150);
     },
     function(){
-        $(this).find('.caption').fadeOut(500);
+        $(this).find('.caption').fadeOut(150);
     }
 );
 $("#showall_tag_search").click(function(e) {
