@@ -1,12 +1,4 @@
 $( document ).ready(function() {
-$("#menu-open").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("menu-open");
-});
-$("#menu-close").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("menu-open");
-});
 
 $("[rel='tooltip']").tooltip();
 
@@ -44,5 +36,15 @@ $("#diy_tag_search").click(function(e) {
     $(".tag_display").hide();
     $(".diy_tag").show();
 
+});
+$(document).on('click', '#projects_video', function (e) {
+    var video = $(this).get(0);
+    if (video.paused === false) {
+        video.pause();
+    } else {
+        video.play();
+    }
+
+    return false;
 });
 });

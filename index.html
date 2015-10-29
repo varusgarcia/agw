@@ -1,64 +1,120 @@
 <!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 
-<head>
+ <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Alvaro Garcia Weissenborn</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700|Poiret+One' rel='stylesheet' type='text/css'>
-
-</head>
-<body>
-    <div id="wrapper">
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <div id="menu-close-button">
-                  <a href="#menu-close"  id="menu-close">
-                    <img src="assets/images/menu-close.png" alt="logo" />
-                  </a>
-                </div>
-                <li class="sidebar-brand">
-                </li>
-                <li>
-                    <a href="#"><ins><b>H</b></ins>ome</a>
-                </li>
-                <li>
-                    <a href="about.html">About me</a>
-                </li>
-                <li>
-                    <a href="projects.html">Projects</a>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-                <li>
-            </ul>
-        </div>
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description" content="">
+     <meta name="author" content="">
+     <title>Alvaro Garcia Weissenborn</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/simple-sidebar.css" rel="stylesheet">
+     <link href="css/style.css" rel="stylesheet">
+     <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700|Poiret+One' rel='stylesheet' type='text/css'>
+ </head>
+ <body>
+     <div id="wrapper">
+         <div id="page-content-wrapper">
+            <div class="container-fluid side_space_100">
+              <div id="content">
+                  <div class="col-lg-12 page_title">
+                      <h1>Welcome to my Website!</h1>
+                  </div>
+              </div>
               <div id="content">
                 <div class="col-lg-12 page_title">
-                  <h1>Welcome to my Website!</h1>
+                  <h1>And what about me?</h1>
                 </div>
-                    <div id="menu-open-button">
-                      <a href="#menu-open"  id="menu-open">
-                        <img src="assets/images/menu-open.png" alt="logo" />
-                      </a>
-                    </div>
-                    </div>
-            </div>
-        </div>
-    </div>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/animations.js"></script>
-</body>
+                <div class="col-lg-12 content_text">
+                  <p>Well, im 21 years old and currently studying Interface Design In Potsdam, near Berlin, Germany. I’m originally from Madrid, Spain, have attended school and High school there and basically lived there my whole life. I would classify myself as a curious person, always trying out new ways and interested in many different paths, such as cinematography, photography, technology, mountain bike, nature, painting,.. Paths that have, for example, carried me to spend half a year in a Farm in England.
+                  My interest in technology has driven me to leave my home country one year ago and start studying here in Germany. I got interested in Interface design because of its importance in the modern world and because its something alive, evolving every day. </p>
+                </div>
+              </div>
+              <div class="col-lg-12 page_title">
+                  <h1>What have I been doing?</h1>
+              </div>
+              <div class="tag_search">
+                   <h6>Show only:</h6>
+                   <a href="#slider" id="slider_tag_search"  style="text-decoration: none">
+                      <p>#slider</p>
+                   </a>
+                   <a href="#hyperlapse" id="hyperlapse_tag_search" style="text-decoration: none">
+                     <p>#hyperlapse</p>
+                   </a>
+                   <a href="#video" id="video_tag_search" style="text-decoration: none">
+                     <p>#video</p>
+                   </a>
+                   <a href="#diy" id="diy_tag_search" style="text-decoration: none">
+                     <p>#diy</p>
+                   </a>
+                   <a href="#showall" id="showall_tag_search" class="tag_search_showall" style="text-decoration: none">
+                     <p>Show all</p>
+                   </a>
+                 </div>
+                   <div class="row">
+                     <div class="col-lg-4 tag_display hyperlapse_tag video_tag">
+                       <div class="thumbnail">
+                         <a href="projects/hyperlapse.html">
+                           <div class="caption">
+                             <div class="caption">
+                               <div class="caption_title"
+                                 <h1>Hyperlapse Tutorial</h1>
+                               </div>
+                               <div class="caption_text"
+                                 <p>Here I will show you how to achive a professional finish in your Hyperlapses.</p>
+                               </div>
+                               <div class="tag_names">
+                                 <p>#hyperlapse</p>
+                                 <p>#video</p>
+                               </div>
+                             </div>
+                           </div>
+                         </a>
+                         <img src="assets/images/projects_hyperlapse.png" alt="...">
+                       </div>
+                     </div>
+                     <div class="col-lg-4 tag_display slider_tag diy_tag video_tag">
+                       <div class="thumbnail">
+                         <a href="projects/mini-slider.html">
+                           <div class="caption">
+                             <div class="caption">
+                               <div class="caption_title"
+                                 <h1>Mini Slider Tutorial</h1>
+                               </div>
+                               <div class="caption_text"
+                                 <p>Here I will show you how you can do your own slider for lightweight cameras such as GoPro and compact cameras.</p>
+                               </div>
+                               <div class="tag_names">
+                                 <p>#slider</p>
+                                 <p>#diy</p>
+                                 <p>#video</p>
+                               </div>
+                             </div>
+                           </div>
+                         </a>
+                         <img src="assets/images/projects_slider.png" alt="..." border="5">
+                       </div>
+                     </div>
+                   </div>
+                   <div id="content">
+                     <div class="col-lg-12 page_title">
+                       <h1>Wanna tell me something?</h1>
 
-</html>
+                     </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+
+     <script src="js/jquery.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/animations.js"></script>
+
+
+
+
+ </body>
+
+ </html>
