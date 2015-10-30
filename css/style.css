@@ -158,7 +158,7 @@
   font-size: 70px;
   font-family: 'Poiret One', cursive;
 }
-.content_title h2{
+.ingredients_title h1{
   text-align: center;
   color:black;
   font-size: 40px;
@@ -169,27 +169,6 @@
   height: auto;
 }
 
-@media(min-width:768px) {
-.top_space_100{
-  padding-top: 100px
-}
-.top_space_50{
-  padding-top: 50px
-}
-.top_space_25{
-  padding-top: 25px
-}
-.side_space_100{
-  padding-right: 15%;
-  padding-left: 15%;
-}
-.bottom_space_50{
-  padding-bottom: 50px;
-}
-
-}
-
-@media(min-width:300px) {
 .top_space_100{
   padding-top: 100px
 }
@@ -202,6 +181,39 @@
 .side_space_100{
   padding-right: 10%;
   padding-left: 10%;
+}
+
+@media only screen and (max-width: 700px) {
+.projects_page_title h1{
+  font-size: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.content_text_description{
+  font-size: 15px;
+}
+.content_text{
+  font-size: 15px;
+}
+.content_title h1{
+  font-size: 50px;
+}
+.ingredients_title h1{
+  font-size: 30px;
+}
+
+.top_space_100{
+  padding-top: 10px
+}
+.top_space_50{
+  padding-top: 10px
+}
+.top_space_25{
+  padding-top: 5px
+}
+.side_space_100{
+  padding-right: 2%;
+  padding-left: 2%;
 }
 
 }
