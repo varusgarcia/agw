@@ -2,15 +2,9 @@
 .caption_text{
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
-  color: grey;
+  color: black;
   font-weight: lighter;
   text-align: center;
-}
-.caption_title{
-  text-align: center;
-  color:black;
-  font-size: 70px;
-  font-family: 'Poiret One', cursive;
 }
 
 
@@ -18,10 +12,14 @@
 
 .thumbnail {
     position:relative;
-    overflow:hidden;
-    border:none;
-    border-radius: 20px;
+    background-color: #F6F6F6;
+    border: none;
+    border-radius: 0px;
+}
 
+
+.thumbnail a{
+  text-decoration: none;
 }
 .page_title h1{
   font-family: 'Poiret One', cursive;
@@ -31,18 +29,6 @@
   padding-bottom: 100px;
 }
 
-.caption {
-    position:absolute;
-    top:0px;
-    right:0px;
-    background:rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
-    width:100%;
-    height:100%;
-    padding:20%;
-    display: none;
-    text-align:center;
-}
 
 .cover-main {
   padding-top: 100px;
@@ -55,39 +41,36 @@
   border-width: 4px;
   background: #EFEFEF;
   border-color: #EFEFEF;
-  color: rgba(127, 127, 127, 0.5);;
-  border-radius: 200px
+  color: #282C34;
+  border-radius: 200px;
+  font-size: 15px;
 }
 
 .tag_search h6{
   display: inline;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  color: white;
+
 }
 .tag_search_showall p{
-  font-family: 'Ubuntu', sans-serif;
-  display: inline;
-  border-style: solid;
-  border-width: 4px;
-  background: #7F7F7F;
-  border-color: #7F7F7F;
-  color: #EFEFEF;
-  border-radius: 200px
+  background-color: #B6B6B6;
+  border-color: #B6B6B6;
 }
 .tag_names p{
   display: inline;
   border-style: solid;
   border-width: 4px;
-  background: #7F7F7F;
-  border-color: #7F7F7F;
+  background: #282C34;
+  border-color: #282C34;
   color: #EFEFEF;
   border-radius: 200px
 }
 .tag_names{
-  text-align: right;
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
-
+  text-align: left;
+  position: relative;
 }
+
 
 .tag_search{
   padding-bottom: 20px;
@@ -117,8 +100,12 @@
   text-shadow: 1px 1px 1px rgb(100, 100, 100);
 }
 .projects_head_background{
-  background-color: #B0B0B0;
+  background-color: #282C34;
 }
+.page_contact_background{
+  background-color: #2C323B;
+}
+
 .projects_head a{
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
@@ -127,6 +114,9 @@
   text-decoration: none;
   font-weight: lighter;
   text-align: center;
+}
+.page_head_background{
+  background-color:#21252B;
 }
 .content_text_description{
   font-size: 20px;
@@ -158,9 +148,27 @@
   font-size: 70px;
   font-family: 'Poiret One', cursive;
 }
-.ingredients_title h1{
+.ingredients_title_black h1{
   text-align: center;
   color:black;
+  font-size: 55px;
+  font-family: 'Poiret One', cursive;
+}
+.ingredients_title_white h1{
+  text-align: center;
+  color:white;
+  font-size: 55px;
+  font-family: 'Poiret One', cursive;
+}
+.ingredients_title_black h2{
+  text-align: center;
+  color:black;
+  font-size: 40px;
+  font-family: 'Poiret One', cursive;
+}
+.ingredients_title_white h2{
+  text-align: center;
+  color:white;
   font-size: 40px;
   font-family: 'Poiret One', cursive;
 }
@@ -182,6 +190,9 @@
   padding-right: 10%;
   padding-left: 10%;
 }
+.bottom_space_100{
+  padding-bottom: 100px;
+}
 
 @media only screen and (max-width: 700px) {
 .projects_page_title h1{
@@ -198,8 +209,17 @@
 .content_title h1{
   font-size: 50px;
 }
-.ingredients_title h1{
+.ingredients_title_black h1{
+  font-size: 40px;
+}
+.ingredients_title_white h1{
+  font-size: 40px;
+}
+.ingredients_title_black h2{
   font-size: 30px;
+}
+.ingredients_title_white h1{
+  font-size: 40px;
 }
 
 .top_space_100{
@@ -212,9 +232,16 @@
   padding-top: 5px
 }
 .side_space_100{
-  padding-right: 2%;
-  padding-left: 2%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
+.bottom_space_100{
+  padding-bottom: 30px;
+}
+.page_title h1{
+  font-size: 60px;
+}
+
 
 }
 video#projects_hyperlapse{
@@ -222,4 +249,7 @@ video#projects_hyperlapse{
     position:relative;
     z-index:0;
 
+}
+.color_white{
+  color: white;
 }

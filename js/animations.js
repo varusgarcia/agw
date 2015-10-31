@@ -2,14 +2,7 @@ $( document ).ready(function() {
 
 $("[rel='tooltip']").tooltip();
 
-$('.thumbnail').hover(
-    function(){
-        $(this).find('.caption').fadeIn(150);
-    },
-    function(){
-        $(this).find('.caption').fadeOut(150);
-    }
-);
+
 $("#showall_tag_search").click(function(e) {
     e.preventDefault();
     $(".tag_display").show();
