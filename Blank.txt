@@ -1,0 +1,62 @@
+Ingredient > 3:
+
+<div class="row side_space_100">
+<div class="col-md-4 col-sm-12 ">
+  <img src="../assets/images/Photo_name.jpg" alt="..." class="img-responsive">
+  <div class="ingredients_title_black">
+    <h2>Title</h2>
+  </div>
+  <div class="content_text top_space_25">
+    <p>Description</p>
+  </div>
+</div>
+<div class="col-md-4 col-sm-12 ">
+  <img src="../assets/images/Photo_name.jpg" alt="..." class="img-responsive">
+  <div class="ingredients_title_black">
+    <h2>Title</h2>
+  </div>
+  <div class="content_text top_space_25">
+    <p>Description</p>
+  </div>
+</div><div class="col-md-4 col-sm-12 ">
+  <img src="../assets/images/Photo_name.jpg" alt="..." class="img-responsive">
+  <div class="ingredients_title_black">
+    <h2>Title</h2>
+  </div>
+  <div class="content_text top_space_25">
+    <p>Description</p>
+  </div>
+</div>
+</div>
+
+
+
+Video with description:
+
+<div class="col-lg-12 top_space_100 side_space_100">
+<div class="embed-responsive embed-responsive-16by9">
+<iframe  src="https://www.youtube.com/embed/sOieR-dPU_E?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class=" side_space_100 content_text">
+<p><b>Title</b><br>Description</p>
+</div>
+
+Text block:
+
+<div class="col-lg-12 top_space_100 side_space_100">
+<div class="content_title">
+  <h1>Title</h1>
+</div>
+<div class="content_text top_space_50 bottom_space_100">
+  <p>Description</p>
+</div>
+</div>
+
+
+
+Svg:
+
+<div class=" top_space_25 side_space_100 ">
+<img src="../assets/images/projects_mini-slider_11.svg" alt="3d explanation" style="width: 100%; height: auto;">
+</div>
