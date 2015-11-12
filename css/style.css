@@ -2,14 +2,14 @@
 .caption_text{
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
-  color: black;
+  color: white;
   font-weight: lighter;
   text-align: center;
 }
 
 .thumbnail {
     position:relative;
-    background-color: #F6F6F6;
+    background-color: rgba(150, 150, 150, 0.5);;
     border: none;
     border-radius: 0px;
     box-shadow: 0px 0px 10px black;
@@ -62,7 +62,7 @@
   border-width: 4px;
   background: #282C34;
   border-color: #282C34;
-  color: #EFEFEF;
+  color: #BABABA;
   border-radius: 200px
 }
 .tag_names{
@@ -70,7 +70,7 @@
   position: relative;
 }
 .footer_page{
-  background-color: #282C34;
+  background-color: #21252B;
   overflow: hidden;
 }
 .footer_page p{
@@ -119,6 +119,9 @@
   text-shadow: 1px 1px 1px rgb(100, 100, 100);
 }
 .projects_head_background{
+  background-color: #21252B;
+}
+.page_projects_background{
   background-color: #282C34;
 }
 .page_contact_background{
@@ -281,4 +284,11 @@ video#projects_hyperlapse{
 }
 .color_white{
   color: white;
+}
+
+body {
+  background-color: #21252B;
+}
+.projects_body_background {
+  background-color: white;
 }
