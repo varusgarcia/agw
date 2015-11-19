@@ -1,5 +1,4 @@
-[
-  {
+{"connection":[{
     "ID 1":"#0007",
     "ID 2":"#0010",
     "Verbin.quali":1,
@@ -232,3 +231,4 @@
     "Verfasser":"Alexander Käßner"
   }
 ]
+}

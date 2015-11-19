@@ -1,5 +1,5 @@
-var data = [
-    {
+{
+  "data": [{
     "ID":"#0001",
     "Vorname":"Otl",
     "Name":"Aicher",
@@ -231,3 +231,4 @@ var data = [
     "Verfasser":"Blau Bertram"
   }
 ]
+}
