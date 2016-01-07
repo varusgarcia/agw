@@ -1,4 +1,4 @@
-Ingredient > 3:
+ Ingredient > 3:
 
 <div class="row side_space_100">
 <div class="col-md-4 col-sm-12 ">
