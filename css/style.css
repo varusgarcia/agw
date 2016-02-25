@@ -9,10 +9,9 @@
 
 .thumbnail {
     position:relative;
-    background-color: rgba(150, 150, 150, 0.5);;
+    background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 0px;
-    box-shadow: 0px 0px 10px black;
 }
 
 
@@ -49,7 +48,7 @@
   background: #EFEFEF;
   border-color: #EFEFEF;
   color: #282C34;
-  border-radius: 200px;
+  border-radius: 0px;
   font-size: 15px;
 }
 
@@ -68,10 +67,11 @@
   display: inline;
   border-style: solid;
   border-width: 4px;
-  background: #282C34;
-  border-color: #282C34;
-  color: #BABABA;
-  border-radius: 200px
+  background: #9EA0A3;
+  border-color: #9EA0A3;
+
+  color: black;
+  border-radius: 0px
 }
 .tag_names{
   text-align: left;
@@ -153,7 +153,7 @@
   font-family: 'Ubuntu', sans-serif;
   color: white;
   font-weight: lighter;
-  text-align: center;
+  text-align: left;
   padding-bottom: 50px;
 }
 
@@ -163,7 +163,7 @@
   font-family: 'Ubuntu', sans-serif;
   color: grey;
   font-weight: lighter;
-  text-align: center;
+  text-align: left;
 }
 .content_title h1{
   text-align: center;
@@ -198,6 +198,9 @@
 .projects_video {
   width: 100%;
   height: auto;
+  border-color: white;
+  border-width: 40px;
+
 }
 
 .top_space_100{
