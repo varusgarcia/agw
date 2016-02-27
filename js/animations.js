@@ -30,6 +30,12 @@ $("#diy_tag_search").click(function(e) {
     $(".diy_tag").show();
 
 });
+$("#arduino_tag_search").click(function(e) {
+    e.preventDefault();
+    $(".tag_display").hide();
+    $(".arduino_tag").show();
+
+});
 $(document).on('click', '#projects_video', function (e) {
     var video = $(this).get(0);
     if (video.paused === false) {

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Alvaro Garcia Weissenborn</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/simple-sidebar.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700|Poiret+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="wrapper">
+    <div id="page-content-wrapper">
+      <div class="projects_head_background top_space_50">
+        <div class="back_to_home_button">
+          <a href="../index.html"><h3>◁ Back to projects</h3></a>
+        </div>
+        <div class="projects_head">
+          <div class="col-lg-12 projects_page_title ">
+            <h1>Wireless Rotary Phone</h1>
+          </div>
+          <div class="content_text_description side_space_100 projects_page_description " >
+            <p>First off, this project was done for  a course at my university. The task was to fork or make a version of an object, technique, project, etc.. It had to make an alternative version of whatever we chose and give it another direction. I just wanted to mention this to give you some context, otherwise my project might not make little sense. <br>I chose to make a version of an rotary phone, you now, those our parents used. My version would work wireless. This project might not make sense but it can show you how fast you can work with arduino, going from prototyping to the actual finished product in less than a week.</p>
+          </div>
+        </div>
+      </div>
+      <div class="projects_body_background">
+        <div class="col-lg-12 content_title top_space_50">
+          <h1>What you need:<h1>
+          </div>
+          <div class=" side_space_100  top_space_100 bottom_space_100">
+            <div class="row">
+              <div class="col-md-4 col-sm-12 ">
+                <img src="../assets/images/projects_rotary_1.svg" alt="..." class="img-responsive">
+                <div class="ingredients_title_black">
+                  <h2>Old Rotary Phone</h2>
+                </div>
+                <div class="content_text top_space_25">
+                  <p>The phone has to be in good conditions, as we will use some of the parts. The rotary dialer and the ringer mechanism have to still work.</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <img src="../assets/images/projects_rotary_2.svg" alt="..." class="img-responsive">
+                <div class="ingredients_title_black">
+                  <h2>Arduino</h2>
+                </div>
+                <div class="content_text top_space_25">
+                  <p>I used an Arduino Mega because it has so many digital pins, so that you can connect all the cables directly to the arduino and don't need any other accesory.</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <img src="../assets/images/projects_rotary_4.svg" alt="..." class="img-responsive">
+                <div class="ingredients_title_black ">
+                  <h2>Mobile Phone</h2>
+                </div>
+                <div class="content_text top_space_25">
+                  <p>Here i used an old Samsung phone i had laying around. It's important that the phone has physical buttons (because we will later hack those) and that it still works.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <img src="../assets/images/projects_rotary_3.svg" alt="..." class="img-responsive">
+                <div class="ingredients_title_black ">
+                  <h2>20x 220 Ohm Resistor</h2>
+                </div>
+                <div class="content_text top_space_25">
+                  <p>These we need for the Optocoupler.</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <img src="../assets/images/projects_rotary_5.svg" alt="..." class="img-responsive">
+                <div class="ingredients_title_black ">
+                  <h2>4x Optocoupler</h2>
+                </div>
+                <div class="content_text top_space_25">
+                  <p>These we need to "press" the phone buttons. The ones i used were the ACPL-847-000E.</p>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <img src="../assets/images/projects_rotary_6.svg" alt="..." class="img-responsive">
+                <div class="ingredients_title_black ">
+                  <h2>H-Bridge</h2>
+                </div>
+                <div class="content_text top_space_25">
+                  <p>This one we need for using the ringer mechanism</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <img src="../assets/images/projects_rotary_7.svg" alt="..." class="img-responsive">
+                <div class="ingredients_title_black ">
+                  <h2>Computer and Arduino Software</h2>
+                </div>
+                <div class="content_text top_space_25">
+                  <p>You will need a computer with the <a href="https://www.arduino.cc/en/Main/Software">Arduino software</a> installed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" side_space_100 content_text bottom_space_100">
+            <div class="content_title bottom_space_50">
+              <h1>What can the Phone do?</h1>
+            </div>
+            <p>The rotary phone can do the basic tasks of an mobile phone. Receive and make calls.<br>It can be expanded to send sms and basically everything a mobile phone can do, but this isn't my prirority.</p>
+          </div>
+          <div class=" side_space_100 content_text">
+            <div class="content_title bottom_space_50">
+              <h1>How it works</h1>
+            </div>
+            <p>First, let's see how everything is wired:</p>
+            <img src="../assets/images/projects_rotary_8.png" alt="wiring" style="width: 100%; height: auto;">
+            <div class="content_title bottom_space_50">
+              <h1>The dialing mechanism</h1>
+            </div>
+            <p>Let's start with the dialing mechanism. The condition to dial is that the phone handset has to be taken. As you can see below, there is a simple switch that opens when the headset is taken.</p>
+            <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
+              <source src="../assets/videos/projects_rotary_2.mp4" type="video/mp4">
+              </video>
+            <p>Then, the arduino knows that someone wats to input a number. As you can see below, it works really easy, there are two circuits that open (when the wire is grey) and close (when the wire is red) in a specific way for each number.<br>One of them, closes while the number is beeing dialed, en the other one closes and opens for each number (in this case 10 times).</p>
+            <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
+              <source src="../assets/videos/projects_rotary.mp4" type="video/mp4">
+              </video>
+              <p class="bottom_space_50">Ok, now the arduino has the information about the number it has to dial on the phone.<br>In the image below you can see how each number on the phone is wired to the optocoupler, then to the resistor and finally to the arduino board.<br>Basically each pin on the Arduino controls one number on the phone:</p>
+              <table class="tg side_space_100">
+                <tr>
+                  <th class="tg-yw4l">Number</th>
+                  <td class="tg-yw4l">0</td>
+                  <td class="tg-yw4l">1</td>
+                  <td class="tg-yw4l">2</td>
+                  <td class="tg-yw4l">3</td>
+                  <td class="tg-yw4l">4</td>
+                  <td class="tg-yw4l">5</td>
+                  <td class="tg-yw4l">6</td>
+                  <td class="tg-yw4l">7</td>
+                  <td class="tg-yw4l">8</td>
+                  <td class="tg-yw4l">9</td>
+                  <td class="tg-yw4l">Call</th>
+                    <td class="tg-yw4l">Hangup</td>
+                  </tr>
+                  <tr>
+                    <th class="tg-yw4l">Pin</th>
+                    <td class="tg-yw4l">23</td>
+                    <td class="tg-yw4l">39</td>
+                    <td class="tg-yw4l">41</td>
+                    <td class="tg-yw4l">45</td>
+                    <td class="tg-yw4l">33</td>
+                    <td class="tg-yw4l">35</td>
+                    <td class="tg-yw4l">37</td>
+                    <td class="tg-yw4l">29</td>
+                    <td class="tg-yw4l">29</td>
+                    <td class="tg-yw4l">31</td>
+                    <td class="tg-yw4l">43</td>
+                    <td class="tg-yw4l">47</td>
+                  </tr>
+                </table>
+                <div class="note_background">
+                  <p class="side_note_title">WTF is an Optocoupler and why do I use it?</p>
+                  <p class="side_note">An Optocoupler has two different circuit inside, if the first one is HIGH, the second one closes. It works basically like a transistor, with the difference thet the two circuits are seprated.<br>The first circuit has an Led inside (that's why we need to put a resistor before) The second one basically has a light detector, that has the property of letting current pass through if it detects light.<br>So why have i used this instead of a normal transistor? Well, the thing with transistors is that the two circuits would need to have the same current. In my case they don't (arduino run on 5v and the Phone on 3.3v)</p>
+                </div>
+
+                <p class="top_space_50">When that pin is set to HIGH (5v are coming out of that pin), the optocoupler closes the circuit and the number is "pressed" on the phone.</p>
+
+
+                <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
+                  <source src="../assets/videos/projects_rotary_1.mp4" type="video/mp4">
+                  </video>
+                  <p class="top_space_50">Each time a new number is pressed, the arduino starts a countdown of about 5 sec., If no new number is dialed in that time, it "presses" the call button and the phone calls the number.</p>
+                  
+                </div>
+              </div>
+
+              <div class="footer_page">
+                <div class="row">
+                  <div class="col-lg-12 page_title1 color_white">
+                    <h1>Wanna tell me something?</h1>
+                  </div>
+                </div>
+                <div class="top_space_25 footer_icon" align="middle">
+                  <a href="https://www.youtube.com/varusgarcia">
+                    <img src="../assets/images/youtube.png" alt="youtube" class="img-responsive"/>
+                  </a>
+                  <a href="https://dribbble.com/varusgarcia">
+                    <img src="../assets/images/dribble.png" alt="dribble" class="img-responsive"/>
+                  </a>
+                  <a href="https://twitter.com/varusgarcia">
+                    <img src="../assets/images/twitter.png" alt="dribble" class="img-responsive"/>
+                  </a>
+                  <a href="https://www.facebook.com/alvarogarciaweissenborn">
+                    <img src="../assets/images/facebook.png" alt="dribble" class="img-responsive"/>
+                  </a>
+                </div>
+                <p>© 2015 Alvaro Garcia Weissenborn<p>
+                </div>
+              </div>
+            </div>
+            <script src="../js/jquery.js"></script>
+            <script src="../js/bootstrap.min.js"></script>
+            <script src="../js/animations.js"></script>
+          </body>
+
+          </html>
