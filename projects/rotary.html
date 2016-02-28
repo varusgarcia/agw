@@ -124,86 +124,101 @@
             <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
               <source src="../assets/videos/projects_rotary_2.mp4" type="video/mp4">
               </video>
-            <p>Then, the arduino knows that someone wats to input a number. As you can see below, it works really easy, there are two circuits that open (when the wire is grey) and close (when the wire is red) in a specific way for each number.<br>One of them, closes while the number is beeing dialed, en the other one closes and opens for each number (in this case 10 times).</p>
-            <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
-              <source src="../assets/videos/projects_rotary.mp4" type="video/mp4">
-              </video>
-              <p class="bottom_space_50">Ok, now the arduino has the information about the number it has to dial on the phone.<br>In the image below you can see how each number on the phone is wired to the optocoupler, then to the resistor and finally to the arduino board.<br>Basically each pin on the Arduino controls one number on the phone:</p>
-              <table class="tg side_space_100">
-                <tr>
-                  <th class="tg-yw4l">Number</th>
-                  <td class="tg-yw4l">0</td>
-                  <td class="tg-yw4l">1</td>
-                  <td class="tg-yw4l">2</td>
-                  <td class="tg-yw4l">3</td>
-                  <td class="tg-yw4l">4</td>
-                  <td class="tg-yw4l">5</td>
-                  <td class="tg-yw4l">6</td>
-                  <td class="tg-yw4l">7</td>
-                  <td class="tg-yw4l">8</td>
-                  <td class="tg-yw4l">9</td>
-                  <td class="tg-yw4l">Call</th>
-                    <td class="tg-yw4l">Hangup</td>
-                  </tr>
+              <p>Then, the arduino knows that someone wats to input a number. As you can see below, it works really easy, there are two circuits that open (when the wire is grey) and close (when the wire is red) in a specific way for each number.<br>One of them, closes while the number is beeing dialed, en the other one closes and opens for each number (in this case 10 times).</p>
+              <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
+                <source src="../assets/videos/projects_rotary.mp4" type="video/mp4">
+                </video>
+                <p class="bottom_space_50">Ok, now the arduino has the information about the number it has to dial on the phone.<br>In the image below you can see how each number on the phone is wired to the optocoupler, then to the resistor and finally to the arduino board.<br>Basically each pin on the Arduino controls one number on the phone:</p>
+                <table class="tg side_space_100">
                   <tr>
-                    <th class="tg-yw4l">Pin</th>
-                    <td class="tg-yw4l">23</td>
-                    <td class="tg-yw4l">39</td>
-                    <td class="tg-yw4l">41</td>
-                    <td class="tg-yw4l">45</td>
-                    <td class="tg-yw4l">33</td>
-                    <td class="tg-yw4l">35</td>
-                    <td class="tg-yw4l">37</td>
-                    <td class="tg-yw4l">29</td>
-                    <td class="tg-yw4l">29</td>
-                    <td class="tg-yw4l">31</td>
-                    <td class="tg-yw4l">43</td>
-                    <td class="tg-yw4l">47</td>
-                  </tr>
-                </table>
-                <div class="note_background">
-                  <p class="side_note_title">WTF is an Optocoupler and why do I use it?</p>
-                  <p class="side_note">An Optocoupler has two different circuit inside, if the first one is HIGH, the second one closes. It works basically like a transistor, with the difference thet the two circuits are seprated.<br>The first circuit has an Led inside (that's why we need to put a resistor before) The second one basically has a light detector, that has the property of letting current pass through if it detects light.<br>So why have i used this instead of a normal transistor? Well, the thing with transistors is that the two circuits would need to have the same current. In my case they don't (arduino run on 5v and the Phone on 3.3v)</p>
-                </div>
+                    <th class="tg-yw4l">Number</th>
+                    <td class="tg-yw4l">0</td>
+                    <td class="tg-yw4l">1</td>
+                    <td class="tg-yw4l">2</td>
+                    <td class="tg-yw4l">3</td>
+                    <td class="tg-yw4l">4</td>
+                    <td class="tg-yw4l">5</td>
+                    <td class="tg-yw4l">6</td>
+                    <td class="tg-yw4l">7</td>
+                    <td class="tg-yw4l">8</td>
+                    <td class="tg-yw4l">9</td>
+                    <td class="tg-yw4l">Call</th>
+                      <td class="tg-yw4l">Hangup</td>
+                    </tr>
+                    <tr>
+                      <th class="tg-yw4l">Pin</th>
+                      <td class="tg-yw4l">23</td>
+                      <td class="tg-yw4l">39</td>
+                      <td class="tg-yw4l">41</td>
+                      <td class="tg-yw4l">45</td>
+                      <td class="tg-yw4l">33</td>
+                      <td class="tg-yw4l">35</td>
+                      <td class="tg-yw4l">37</td>
+                      <td class="tg-yw4l">29</td>
+                      <td class="tg-yw4l">29</td>
+                      <td class="tg-yw4l">31</td>
+                      <td class="tg-yw4l">43</td>
+                      <td class="tg-yw4l">47</td>
+                    </tr>
+                  </table>
+                  <div class="note_background">
+                    <p class="side_note_title">WTF is an Optocoupler and why do I use it?</p>
+                    <p class="side_note">An Optocoupler has two different circuit inside, if the first one is HIGH, the second one closes. It works basically like a transistor, with the difference thet the two circuits are seprated.<br>The first circuit has an Led inside (that's why we need to put a resistor before) The second one basically has a light detector, that has the property of letting current pass through if it detects light.<br>So why have i used this instead of a normal transistor? Well, the thing with transistors is that the two circuits would need to have the same current. In my case they don't (arduino run on 5v and the Phone on 3.3v)</p>
+                  </div>
+                  <p class="top_space_50">When that pin is set to HIGH (5v are coming out of that pin), the optocoupler closes the circuit and the number is "pressed" on the phone.</p>
+                  <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
+                    <source src="../assets/videos/projects_rotary_1.mp4" type="video/mp4">
+                    </video>
+                    <p class="top_space_50">Each time a new number is pressed, the arduino starts a countdown of about 5 sec., If no new number is dialed in that time, it "presses" the call button and the phone calls the number.</p>
+                    <div class="content_title bottom_space_50">
+                      <h1>The Ringing</h1>
+                    </div>
+                    <p>Let's explain how the ringing works. The simplest way to know when the phone is ringing i could think of was to always leave the phone in silence mode so that when it rings, the vibration motor would be activated. I hooked up the cables that would go to the motor to an optocoupler so that when the phone would ring, the optocoupler would close a circuit. That circuit is connected to the arduino: </p>
+                    <video class=" projects_video top_space_25 bottom_space_50" loop autoplay id="projects_video" source src="../assets/videos/projects_rotary_3.mp4" type="video/mp4"> </video></video>
 
-                <p class="top_space_50">When that pin is set to HIGH (5v are coming out of that pin), the optocoupler closes the circuit and the number is "pressed" on the phone.</p>
+                    <p>The ringing noise is produced by a metal piece that hits the two bells really fast one at a time. The movement is produced by two electromagnets that each atract or push away a magnet piece. When one atracts, the other pushes away. To do this, i needed to change the current direction really fast. For that i used an H-Bridge. </p>
+                    <div class="note_background">
+                      <p class="side_note_title">WTF is a H-Bridge?</p>
+                      <p class="side_note">It is basically a chip which integrates a simple transistor circuit. It is used to change the direction of current.<br>Each H-Bridge can be used for two separate circuits. To use it, you have to connect the input power, output power, and two digital pins. Basically, when one of the pins is HIGH, the H-Bridge outputs the power in one direction and whrn the other one is HIGH, it outputs it in the other direction.<br>In the illustration below you can see how it works</p>
+                    </div>
+                    <video class=" projects_video top_space_25 bottom_space_50" loop autoplay id="projects_video" source src="../assets/videos/projects_rotary_4.mp4" type="video/mp4"></video>
+                    <p>If each time the arduino detects that the phone is ringing it alternates setting those two pins high with an delay of 20 miliseconds inbetween, we get that result we were looking for:</p>
+                    <video class=" projects_video top_space_25 " loop autoplay id="projects_video" source src="../assets/videos/projects_rotary_5.mp4" type="video/mp4"></video>
+                    <p class="top_space_50 bottom_space_50">For the last step, we tell the arduino that if the phone headset is taken by the time it's ringing, tht it presses the "call" button on the mobile phone (meaning that we answer the call).</p>
+                    <p class="bottom_space_100">
+                      <a href="https://github.com/varusgarcia/rotary">Here</a> you can find the arduino code.
+                    </p>
 
-
-                <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
-                  <source src="../assets/videos/projects_rotary_1.mp4" type="video/mp4">
-                  </video>
-                  <p class="top_space_50">Each time a new number is pressed, the arduino starts a countdown of about 5 sec., If no new number is dialed in that time, it "presses" the call button and the phone calls the number.</p>
-                  
-                </div>
-              </div>
-
-              <div class="footer_page">
-                <div class="row">
-                  <div class="col-lg-12 page_title1 color_white">
-                    <h1>Wanna tell me something?</h1>
                   </div>
                 </div>
-                <div class="top_space_25 footer_icon" align="middle">
-                  <a href="https://www.youtube.com/varusgarcia">
-                    <img src="../assets/images/youtube.png" alt="youtube" class="img-responsive"/>
-                  </a>
-                  <a href="https://dribbble.com/varusgarcia">
-                    <img src="../assets/images/dribble.png" alt="dribble" class="img-responsive"/>
-                  </a>
-                  <a href="https://twitter.com/varusgarcia">
-                    <img src="../assets/images/twitter.png" alt="dribble" class="img-responsive"/>
-                  </a>
-                  <a href="https://www.facebook.com/alvarogarciaweissenborn">
-                    <img src="../assets/images/facebook.png" alt="dribble" class="img-responsive"/>
-                  </a>
-                </div>
-                <p>© 2015 Alvaro Garcia Weissenborn<p>
+
+                <div class="footer_page">
+                  <div class="row">
+                    <div class="col-lg-12 page_title1 color_white">
+                      <h1>Wanna tell me something?</h1>
+                    </div>
+                  </div>
+                  <div class="top_space_25 footer_icon" align="middle">
+                    <a href="https://www.youtube.com/varusgarcia">
+                      <img src="../assets/images/youtube.png" alt="youtube" class="img-responsive"/>
+                    </a>
+                    <a href="https://dribbble.com/varusgarcia">
+                      <img src="../assets/images/dribble.png" alt="dribble" class="img-responsive"/>
+                    </a>
+                    <a href="https://twitter.com/varusgarcia">
+                      <img src="../assets/images/twitter.png" alt="dribble" class="img-responsive"/>
+                    </a>
+                    <a href="https://www.facebook.com/alvarogarciaweissenborn">
+                      <img src="../assets/images/facebook.png" alt="dribble" class="img-responsive"/>
+                    </a>
+                  </div>
+                  <p>© 2015 Alvaro Garcia Weissenborn<p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <script src="../js/jquery.js"></script>
-            <script src="../js/bootstrap.min.js"></script>
-            <script src="../js/animations.js"></script>
-          </body>
+              <script src="../js/jquery.js"></script>
+              <script src="../js/bootstrap.min.js"></script>
+              <script src="../js/animations.js"></script>
+            </body>
 
-          </html>
+            </html>
