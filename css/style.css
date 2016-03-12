@@ -1,30 +1,68 @@
-
-.caption_text{
+.caption_text p{
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
-  color: white;
   font-weight: lighter;
+  color:white;
+  position: relative;
+
+}
+.caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.tag_names p{
+  display: inline;
+  border-style: solid;
+  border-width: 4px;
+  background:#B6B6B6;
+  border-color: #B6B6B6;
+  color: black;
+  border-radius: 0px;
+  position: relative;
+}
+.tag_names{
+  text-align: left;
+  position: relative;
+}
+.thumbnail_home {
+margin-bottom: 20px;
+ position: relative;
+ -webkit-filter: grayscale(100%);
+ filter: grayscale(100%);
+}
+.thumbnail_home:hover{
+  transition: all 0.5s ease;
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.thumbnail_home h1{
+  z-index: 1;
+  font-family: 'Poiret One', cursive;
   text-align: center;
+  font-size: 50px;
+  color: white;
+  text-shadow: 0.3px 0.3px 1px black;
+
 }
 
-.thumbnail {
-    position:relative;
-    background-color: rgba(255, 255, 255, 0.1);
-    border: none;
-    border-radius: 0px;
+.project_image {
+position: relative;
 }
 
 
-.thumbnail a{
-  text-decoration: none;
-}
+
 .page_title h1{
   font-family: 'Poiret One', cursive;
   text-align: center;
   font-size: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 0.3px 0.3px 1px black;
 }
 .page_title1 h1{
   font-family: 'Poiret One', cursive;
@@ -32,7 +70,7 @@
   font-size: 50px;
   padding-top: 10;
   padding-bottom: 10;
-  text-shadow: 1px 1px 5px black;
+  text-shadow: 0.3px 0.3px 1px black;
 }
 
 
@@ -63,19 +101,7 @@
   background-color: white;
   border-color: white;
 }
-.tag_names p{
-  display: inline;
-  border-style: solid;
-  border-width: 4px;
-  background:#B6B6B6;
-  border-color: #B6B6B6;
-  color: black;
-  border-radius: 0px
-}
-.tag_names{
-  text-align: left;
-  position: relative;
-}
+
 .footer_page{
   background-color: #21252B;
   overflow: hidden;
@@ -112,7 +138,7 @@
 .back_to_home_button a{
   color: white;
   text-decoration: none;
-  text-shadow: 1px 1px 1px rgb(100, 100, 100);
+  text-shadow: 0.3px 0.3px 0.3px rgb(100, 100, 100);
 }
 
 
@@ -123,13 +149,13 @@
   padding-top: 100px;
   padding-bottom: 100px;
   color: #ECECEC;
-  text-shadow: 1px 1px 1px rgb(100, 100, 100);
+  text-shadow: 0.3px 0.3px 0.3px rgb(100, 100, 100);
 }
 .projects_head_background{
   background-color: #21252B;
 }
 .page_projects_background{
-  background-color: #282C34;
+  background-color: #FFB900;
 }
 .page_contact_background{
   background-color: #2C323B;
@@ -139,7 +165,7 @@
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
   color: #ECECEC;
-  text-shadow: 1px 1px 1px rgb(100, 100, 100);
+  text-shadow: 0.3px 0.3px 0.3px rgb(100, 100, 100);
   text-decoration: none;
   font-weight: lighter;
   text-align: center;
