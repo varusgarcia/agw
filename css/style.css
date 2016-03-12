@@ -30,11 +30,12 @@
   position: relative;
 }
 .thumbnail_home {
-margin-bottom: 20px;
+margin-bottom: 30px;
  position: relative;
  -webkit-filter: grayscale(100%);
  filter: grayscale(100%);
 }
+
 .thumbnail_home:hover{
   transition: all 0.5s ease;
   -webkit-filter: grayscale(0%);
@@ -172,6 +173,11 @@ position: relative;
 }
 .page_head_background{
   background-color:#21252B;
+}
+.page_shadow{
+  height: 5px;
+  background-color: #D99E00;
+
 }
 .content_text_description{
   font-size: 20px;
