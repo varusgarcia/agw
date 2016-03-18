@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 477.5 477.5" style="enable-background:new 0 0 477.5 477.5;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#FFFFFF;stroke:#000000;stroke-width:20;stroke-miterlimit:10;}
+	.st2{display:inline;fill:#FFFFFF;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#000000;stroke-width:8;stroke-miterlimit:10;}
+	.st4{fill:#FFFFFF;}
+</style>
+<g id="Slider_Controller">
+	<g id="_x35_.5x_2.1mm_Female_To_Male_Plug" class="st0">
+		
+			<image style="display:inline;overflow:visible;enable-background:new    ;" width="1200" height="1200" xlink:href="../../../../../Library/Containers/at.EternalStorms.Yoink/Data/Documents/YoinkPromisedFiles/yoinkFilePromiseCreationFolder464573E1-BF78-426D-89BE-A443B91FBFFF/add464573E1-BF78-426D-89BE-A443B91FBFFF/s-l1600.jpg"  transform="matrix(-0.521 0 0 0.5684 609.6823 -169.0095)">
+		</image>
+		<path class="st1" d="M0,54.6c0,0,40.4-7.2,79.5,12.6c61.2,31,91.4,42,91.4,42"/>
+		<path class="st1" d="M0,211.3c0,0,16.3,7.6,21.4,10.7c38.9,23.7,69,50.7,69,50.7"/>
+		<path class="st2" d="M166.2,133.7c-6.2-3.5-6.9-13.6-1.1-23.7c5.7-10.1,15.9-15.5,22-12l68.2,39.9l11.1,0.5l18.3,10.7l8.7-2.4
+			l20.2,11.8l4,9.8l50.8,29.7c8.3,4.7,8.8,19.6,1,33.3s-21.5,20.6-29.8,15.9L289.7,218l-11.5,0.8l-19.8-11.6l-2.7-9.1l-18.3-10.7
+			l-3.3-13.9L166.2,133.7z"/>
+		<path class="st2" d="M368.5,198.1c-8.3-4.7-22.3,3.4-30,17c-7.8,13.7-7,27.4,1.3,32.1"/>
+		<path class="st2" d="M84.6,291.7c-6.2-3.5-6.9-13.6-1.1-23.7c5.7-10.1,15.9-15.5,22-12l68.2,39.9l11.1,0.5l18.3,10.7l8.7-2.4
+			l20.2,11.8l4,9.8l50.8,29.7c8.3,4.7,8.8,19.6,1,33.3c-7.8,13.7-21.5,20.6-29.8,15.9L208.3,376l-11.5,0.8L177,365.2l-2.7-9.1
+			L156,345.4l-3.3-13.9L84.6,291.7z"/>
+		<path class="st2" d="M286.9,356c-8.3-4.7-22.3,3.4-30,17c-7.8,13.7-7,27.4,1.3,32.1"/>
+		<path class="st2" d="M359.5,446.5L266.8,395c-3.4-2-3.1-8.9,0.7-15.5s9.7-10.3,13.1-8.4l92.7,51.5"/>
+		<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -193.1844 534.629)" class="st2" cx="366.4" cy="434.6" rx="13.8" ry="7.2"/>
+		<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -16.3794 419.8239)" class="st2" cx="355.4" cy="224.1" rx="13.8" ry="7.2"/>
+	</g>
+	<g id="Layer_26">
+		<path class="st3" d="M383.5,218.4c27,15.3,28.5,63.7,3.4,108.1c-25.2,44.4-69.7,66.8-96.7,51.5"/>
+		<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -91.9473 446.7738)" class="st3" cx="340.9" cy="303" rx="44.8" ry="23.3"/>
+		<g>
+			<polygon class="st4" points="79.7,147.4 99.2,123.5 139.5,149.2 121.9,172.7 			"/>
+			<path d="M100,128.8l33.7,21.4l-12.9,17.2l-35.1-21.1L100,128.8 M98.3,118.3l-24.6,30.2l49.2,29.5l22.4-29.9L98.3,118.3
+				L98.3,118.3z"/>
+		</g>
+		<g>
+			<polygon class="st4" points="139.2,103.2 154,99.8 183.1,117.6 172.4,122 			"/>
+			<path d="M153.3,104.1l21,12.7l-1.7,0.7l-22.5-12.7L153.3,104.1 M154.7,95.6l-26.4,6.1l43.8,24.7l19.9-8.1L154.7,95.6L154.7,95.6z
+				"/>
+		</g>
+		<path class="st3" d="M383.5,218.4c-27-15.3-72.3,11-97.5,55.3s-22.8,89,4.2,104.3l-163-95.8c-27-15.3-29.3-59.9-4.2-104.3
+			s70.5-70.6,97.5-55.3L383.5,218.4z"/>
+	</g>
+</g>
+</svg>

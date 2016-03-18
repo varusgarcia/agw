@@ -19,11 +19,12 @@
   display: inline;
   border-style: solid;
   border-width: 4px;
-  background:#B6B6B6;
-  border-color: #B6B6B6;
-  color: black;
+  background:#FFB800;
+  border-color: #FFB800;
+  color: #212930;
   border-radius: 0px;
   position: relative;
+  font-weight: bold;
 }
 .tag_names{
   text-align: left;
@@ -63,7 +64,7 @@ position: relative;
   font-size: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
-  text-shadow: 0.3px 0.3px 1px black;
+  text-shadow: 0.5px 0.5px 0.5px #DA9F00;
 }
 .page_title1 h1{
   font-family: 'Poiret One', cursive;
@@ -84,9 +85,9 @@ position: relative;
   display: inline;
   border-style: solid;
   border-width: 4px;
-  background: #9EA0A3;
-  border-color: #9EA0A3;
-  color: #282C34;
+  background: #212930;
+  border-color: #212930;
+  color: #FFB800;
   border-radius: 0px;
   font-size: 15px;
 }
@@ -94,17 +95,19 @@ position: relative;
 .tag_search h6{
   display: inline;
   font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
   font-size: 15px;
-  color: white;
+  color: #212930;
 
 }
 .tag_search_showall p{
   background-color: white;
   border-color: white;
+  color: #212930;
 }
 
 .footer_page{
-  background-color: #21252B;
+  background-color: #222930;
   overflow: hidden;
 }
 .footer_page p{
@@ -137,7 +140,7 @@ position: relative;
   font-weight: lighter;
 }
 .back_to_home_button a{
-  color: white;
+  color: #FFB800;
   text-decoration: none;
   text-shadow: 0.3px 0.3px 0.3px rgb(100, 100, 100);
 }
@@ -149,11 +152,11 @@ position: relative;
   font-size: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
-  color: #ECECEC;
+  color: #FFB800;
   text-shadow: 0.3px 0.3px 0.3px rgb(100, 100, 100);
 }
 .projects_head_background{
-  background-color: #21252B;
+  background-color: #222930;
 }
 .page_projects_background{
   background-color: #FFB900;
@@ -172,7 +175,7 @@ position: relative;
   text-align: center;
 }
 .page_head_background{
-  background-color:#21252B;
+  background-color:#222930;
 }
 .page_shadow{
   height: 5px;
@@ -210,7 +213,7 @@ position: relative;
 }
 .ingredients_title_white h1{
   text-align: center;
-  color:white;
+  color:#FFB800;
   font-size: 55px;
   font-family: 'Poiret One', cursive;
 }
@@ -222,7 +225,7 @@ position: relative;
 }
 .ingredients_title_white h2{
   text-align: center;
-  color:white;
+  color:#FFB800;
   font-size: 40px;
   font-family: 'Poiret One', cursive;
 }
@@ -325,11 +328,14 @@ position: relative;
 }
 
 .color_white{
-  color: white;
+  color: #FFB800;
+}
+.color_black{
+  color: #212930;
 }
 
 body {
-  background-color: #21252B;
+  background-color: #222930;
 }
 .projects_body_background {
   background-color: white;
