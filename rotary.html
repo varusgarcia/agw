@@ -8,10 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="">
   <meta name="author" content="">
-  <title>Alvaro Garcia Weissenborn</title>
-  <link href="../css/bootstrap.min.css" rel="stylesheet">
-  <link href="../css/simple-sidebar.css" rel="stylesheet">
-  <link href="../css/style.css" rel="stylesheet">
+  <title>Wireless Rotary Phone</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700|Poiret+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
@@ -19,7 +19,7 @@
     <div id="page-content-wrapper">
       <div class="projects_head_background top_space_50">
         <div class="back_to_home_button">
-          <a href="../index.html"><h3>◁ Back to projects</h3></a>
+          <a href="index.html"><h3>◁ Back to projects</h3></a>
         </div>
         <div class="projects_head">
           <div class="col-lg-12 projects_page_title ">
@@ -37,7 +37,7 @@
           <div class=" side_space_100  top_space_100 bottom_space_100">
             <div class="row">
               <div class="col-md-4 col-sm-12 ">
-                <img src="../assets/images/projects_rotary_1.svg" alt="..." class="img-responsive">
+                <img src="assets/images/projects_rotary_1.svg" alt="..." class="img-responsive">
                 <div class="ingredients_title_black">
                   <h2>Old Rotary Phone</h2>
                 </div>
@@ -46,7 +46,7 @@
                 </div>
               </div>
               <div class="col-md-4 col-sm-12">
-                <img src="../assets/images/projects_rotary_2.svg" alt="..." class="img-responsive">
+                <img src="assets/images/projects_rotary_2.svg" alt="..." class="img-responsive">
                 <div class="ingredients_title_black">
                   <h2>Arduino</h2>
                 </div>
@@ -55,7 +55,7 @@
                 </div>
               </div>
               <div class="col-md-4 col-sm-12">
-                <img src="../assets/images/projects_rotary_4.svg" alt="..." class="img-responsive">
+                <img src="assets/images/projects_rotary_4.svg" alt="..." class="img-responsive">
                 <div class="ingredients_title_black ">
                   <h2>Mobile Phone</h2>
                 </div>
@@ -66,7 +66,7 @@
             </div>
             <div class="row">
               <div class="col-md-4 col-sm-12">
-                <img src="../assets/images/projects_rotary_3.svg" alt="..." class="img-responsive">
+                <img src="assets/images/projects_rotary_3.svg" alt="..." class="img-responsive">
                 <div class="ingredients_title_black ">
                   <h2>20x 220 Ohm Resistor</h2>
                 </div>
@@ -75,7 +75,7 @@
                 </div>
               </div>
               <div class="col-md-4 col-sm-12">
-                <img src="../assets/images/projects_rotary_5.svg" alt="..." class="img-responsive">
+                <img src="assets/images/projects_rotary_5.svg" alt="..." class="img-responsive">
                 <div class="ingredients_title_black ">
                   <h2>4x Optocoupler</h2>
                 </div>
@@ -84,7 +84,7 @@
                 </div>
               </div>
               <div class="col-md-4 col-sm-12">
-                <img src="../assets/images/projects_rotary_6.svg" alt="..." class="img-responsive">
+                <img src="assets/images/projects_rotary_6.svg" alt="..." class="img-responsive">
                 <div class="ingredients_title_black ">
                   <h2>H-Bridge</h2>
                 </div>
@@ -95,7 +95,7 @@
             </div>
             <div class="row">
               <div class="col-md-4 col-sm-12">
-                <img src="../assets/images/projects_rotary_7.svg" alt="..." class="img-responsive">
+                <img src="assets/images/projects_rotary_7.svg" alt="..." class="img-responsive">
                 <div class="ingredients_title_black ">
                   <h2>Computer and Arduino Software</h2>
                 </div>
@@ -116,17 +116,17 @@
               <h1>How it works</h1>
             </div>
             <p>First, let's see how everything is wired:</p>
-            <img src="../assets/images/projects_rotary_8.png" alt="wiring" style="width: 100%; height: auto;">
+            <img src="assets/images/projects_rotary_8.png" alt="wiring" style="width: 100%; height: auto;">
             <div class="content_title bottom_space_50">
               <h1>The dialing mechanism</h1>
             </div>
             <p>Let's start with the dialing mechanism. The condition to dial is that the phone handset has to be taken. As you can see below, there is a simple switch that opens when the headset is taken.</p>
             <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
-              <source src="../assets/videos/projects_rotary_2.mp4" type="video/mp4">
+              <source src="assets/videos/projects_rotary_2.mp4" type="video/mp4">
               </video>
               <p>Then, the arduino knows that someone wats to input a number. As you can see below, it works really easy, there are two circuits that open (when the wire is grey) and close (when the wire is red) in a specific way for each number.<br>One of them, closes while the number is beeing dialed, en the other one closes and opens for each number (in this case 10 times).</p>
               <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
-                <source src="../assets/videos/projects_rotary.mp4" type="video/mp4">
+                <source src="assets/videos/projects_rotary.mp4" type="video/mp4">
                 </video>
                 <p class="bottom_space_50">Ok, now the arduino has the information about the number it has to dial on the phone.<br>In the image below you can see how each number on the phone is wired to the optocoupler, then to the resistor and finally to the arduino board.<br>Basically each pin on the Arduino controls one number on the phone:</p>
                 <table class="tg side_space_100">
@@ -167,23 +167,23 @@
                   </div>
                   <p class="top_space_50">When that pin is set to HIGH (5v are coming out of that pin), the optocoupler closes the circuit and the number is "pressed" on the phone.</p>
                   <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
-                    <source src="../assets/videos/projects_rotary_1.mp4" type="video/mp4">
+                    <source src="assets/videos/projects_rotary_1.mp4" type="video/mp4">
                     </video>
                     <p class="top_space_50">Each time a new number is pressed, the arduino starts a countdown of about 5 sec., If no new number is dialed in that time, it "presses" the call button and the phone calls the number.</p>
                     <div class="content_title bottom_space_50">
                       <h1>The Ringing</h1>
                     </div>
                     <p>Let's explain how the ringing works. The simplest way to know when the phone is ringing i could think of was to always leave the phone in silence mode so that when it rings, the vibration motor would be activated. I hooked up the cables that would go to the motor to an optocoupler so that when the phone would ring, the optocoupler would close a circuit. That circuit is connected to the arduino: </p>
-                    <video class=" projects_video top_space_25 bottom_space_50" loop autoplay id="projects_video" source src="../assets/videos/projects_rotary_3.mp4" type="video/mp4"> </video></video>
+                    <video class=" projects_video top_space_25 bottom_space_50" loop autoplay id="projects_video" source src="assets/videos/projects_rotary_3.mp4" type="video/mp4"> </video></video>
 
                     <p>The ringing noise is produced by a metal piece that hits the two bells really fast one at a time. The movement is produced by two electromagnets that each atract or push away a magnet piece. When one atracts, the other pushes away. To do this, i needed to change the current direction really fast. For that i used an H-Bridge. </p>
                     <div class="note_background">
                       <p class="side_note_title">WTF is a H-Bridge?</p>
                       <p class="side_note">It is basically a chip which integrates a simple transistor circuit. It is used to change the direction of current.<br>Each H-Bridge can be used for two separate circuits. To use it, you have to connect the input power, output power, and two digital pins. Basically, when one of the pins is HIGH, the H-Bridge outputs the power in one direction and whrn the other one is HIGH, it outputs it in the other direction.<br>In the illustration below you can see how it works</p>
                     </div>
-                    <video class=" projects_video top_space_25 bottom_space_50" loop autoplay id="projects_video" source src="../assets/videos/projects_rotary_4.mp4" type="video/mp4"></video>
+                    <video class=" projects_video top_space_25 bottom_space_50" loop autoplay id="projects_video" source src="assets/videos/projects_rotary_4.mp4" type="video/mp4"></video>
                     <p>If each time the arduino detects that the phone is ringing it alternates setting those two pins high with an delay of 20 miliseconds inbetween, we get that result we were looking for:</p>
-                    <video class=" projects_video top_space_25 " loop autoplay id="projects_video" source src="../assets/videos/projects_rotary_5.mp4" type="video/mp4"></video>
+                    <video class=" projects_video top_space_25 " loop autoplay id="projects_video" source src="assets/videos/projects_rotary_5.mp4" type="video/mp4"></video>
                     <p class="top_space_50 bottom_space_50">For the last step, we tell the arduino that if the phone headset is taken by the time it's ringing, tht it presses the "call" button on the mobile phone (meaning that we answer the call).</p>
                     <p class="bottom_space_100">
                       <a href="https://github.com/varusgarcia/rotary">Here</a> you can find the arduino code.
@@ -201,25 +201,25 @@
                   </div>
                   <div class="top_space_25 footer_icon" align="middle">
                     <a href="https://www.youtube.com/varusgarcia">
-                      <img src="../assets/images/youtube.png" alt="youtube" class="img-responsive"/>
+                      <img src="assets/images/youtube.png" alt="youtube" class="img-responsive"/>
                     </a>
                     <a href="https://dribbble.com/varusgarcia">
-                      <img src="../assets/images/dribble.png" alt="dribble" class="img-responsive"/>
+                      <img src="assets/images/dribble.png" alt="dribble" class="img-responsive"/>
                     </a>
                     <a href="https://twitter.com/varusgarcia">
-                      <img src="../assets/images/twitter.png" alt="dribble" class="img-responsive"/>
+                      <img src="assets/images/twitter.png" alt="dribble" class="img-responsive"/>
                     </a>
                     <a href="https://www.facebook.com/alvarogarciaweissenborn">
-                      <img src="../assets/images/facebook.png" alt="dribble" class="img-responsive"/>
+                      <img src="assets/images/facebook.png" alt="dribble" class="img-responsive"/>
                     </a>
                   </div>
                   <p>© 2015 Alvaro Garcia Weissenborn<p>
                   </div>
                 </div>
               </div>
-              <script src="../js/jquery.js"></script>
-              <script src="../js/bootstrap.min.js"></script>
-              <script src="../js/animations.js"></script>
+              <script src="js/jquery.js"></script>
+              <script src="js/bootstrap.min.js"></script>
+              <script src="js/animations.js"></script>
             </body>
 
             </html>

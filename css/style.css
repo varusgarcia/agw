@@ -107,7 +107,7 @@ position: relative;
 }
 
 .footer_page{
-  background-color: #222930;
+  background-color: #232A2F;
   overflow: hidden;
 }
 .footer_page p{
@@ -156,7 +156,7 @@ position: relative;
   text-shadow: 0.3px 0.3px 0.3px rgb(100, 100, 100);
 }
 .projects_head_background{
-  background-color: #222930;
+  background-color: #232A2F;
 }
 .page_projects_background{
   background-color: #FFB900;
@@ -175,7 +175,7 @@ position: relative;
   text-align: center;
 }
 .page_head_background{
-  background-color:#222930;
+  background-color:#232A2F;
 }
 .page_shadow{
   height: 5px;
@@ -335,7 +335,7 @@ position: relative;
 }
 
 body {
-  background-color: #222930;
+  background-color: #232A2F;
 }
 .projects_body_background {
   background-color: white;
