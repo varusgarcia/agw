@@ -36,6 +36,12 @@ $("#arduino_tag_search").click(function(e) {
     $(".arduino_tag").show();
 
 });
+$("#tool_tag_search").click(function(e) {
+    e.preventDefault();
+    $(".tag_display").hide();
+    $(".tool_tag").show();
+
+});
 $(document).on('click', '#projects_video', function (e) {
     var video = $(this).get(0);
     if (video.paused === false) {
