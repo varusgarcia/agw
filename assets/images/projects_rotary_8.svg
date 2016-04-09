@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1333px" height="1000px" viewBox="0 0 1333 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6.1 (26313) - http://www.bohemiancoding.com/sketch -->
+    <title>Rotary</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="38.3370369%" y1="44.9313019%" x2="19.5106391%" y2="91.9600117%" id="linearGradient-1">
+            <stop stop-color="#D8D8D8" offset="0%"></stop>
+            <stop stop-color="#B2B2B2" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-2">
+            <stop stop-color="#C4A494" offset="0%"></stop>
+            <stop stop-color="#876D5E" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rotary">
+            <g id="Arduino-Mega" transform="translate(652.500000, 461.500000) rotate(-270.000000) translate(-652.500000, -461.500000) translate(381.000000, 354.000000)">
+                <path d="M25,4.99374564 C25,2.23577608 27.2342947,9.9475983e-14 30.0016371,9.9475983e-14 L400.119816,9.9475983e-14 C402.877327,9.9475983e-14 405.107044,2.24327177 405.087952,4.99897269 L404.765052,41.3714348 C404.95707,44.1163058 406.056994,48.3495211 407.799199,50.5124894 L409.231971,51.9313881 C411.312996,53.74321 413,57.4571982 413,60.2169164 L413,194.995065 C413,197.759214 410.76994,200 408.00578,200 L29.9942201,200 C27.2359885,200 25,197.753906 25,195.006254 L25,4.99374564 Z M370,18 C374.418278,18 378,14.418278 378,10 C378,5.581722 374.418278,2 370,2 C365.581722,2 362,5.581722 362,10 C362,14.418278 365.581722,18 370,18 Z M390,198 C394.418278,198 398,194.418278 398,190 C398,185.581722 394.418278,182 390,182 C385.581722,182 382,185.581722 382,190 C382,194.418278 385.581722,198 390,198 Z M90,198 C94.418278,198 98,194.418278 98,190 C98,185.581722 94.418278,182 90,182 C85.581722,182 82,185.581722 82,190 C82,194.418278 85.581722,198 90,198 Z M100,18 C104.418278,18 108,14.418278 108,10 C108,5.581722 104.418278,2 100,2 C95.581722,2 92,5.581722 92,10 C92,14.418278 95.581722,18 100,18 Z" id="Base" fill="#0E73A1"></path>
+                <rect id="Usb" fill="#D8D8D8" x="-2.84217094e-14" y="30" width="60" height="50"></rect>
+                <g id="Reset" transform="translate(297.000000, 78.000000)">
+                    <rect id="Rectangle-91-Copy" fill="#D8D8D8" x="0" y="8" width="26" height="24"></rect>
+                    <rect id="Rectangle-91-Copy-2" fill="#9B9B9B" x="2" y="32" width="4" height="8"></rect>
+                    <rect id="Rectangle-91-Copy-5" fill="#9B9B9B" x="2" y="0" width="4" height="8"></rect>
+                    <rect id="Rectangle-91-Copy-3" fill="#9B9B9B" x="11" y="32" width="4" height="8"></rect>
+                    <rect id="Rectangle-91-Copy-4" fill="#9B9B9B" x="20" y="32" width="4" height="8"></rect>
+                    <rect id="Rectangle-91-Copy-7" fill="#9B9B9B" x="20" y="0" width="4" height="8"></rect>
+                    <circle id="Oval-1" fill="#9C573D" cx="13" cy="20" r="8"></circle>
+                </g>
+                <rect id="Power" fill="#000000" x="10" y="160" width="60" height="30"></rect>
+                <g id="Pins" transform="translate(80.000000, 0.000000)" stroke="#000000" stroke-width="3" fill="#D8D8D8">
+                    <g id="Pin-Copy-27" transform="translate(290.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-75" transform="translate(300.000000, 170.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-83" transform="translate(300.000000, 130.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-91" transform="translate(300.000000, 90.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-99" transform="translate(300.000000, 50.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-79" transform="translate(300.000000, 150.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-84" transform="translate(300.000000, 110.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-92" transform="translate(300.000000, 70.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-100" transform="translate(300.000000, 30.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-107" transform="translate(300.000000, 10.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-77" transform="translate(300.000000, 160.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-85" transform="translate(300.000000, 120.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-93" transform="translate(300.000000, 80.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-101" transform="translate(300.000000, 40.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-80" transform="translate(300.000000, 140.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-86" transform="translate(300.000000, 100.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-94" transform="translate(300.000000, 60.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-102" transform="translate(300.000000, 20.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-108" transform="translate(300.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-76" transform="translate(310.000000, 170.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-87" transform="translate(310.000000, 130.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-95" transform="translate(310.000000, 90.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-103" transform="translate(310.000000, 50.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-81" transform="translate(310.000000, 150.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-88" transform="translate(310.000000, 110.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-96" transform="translate(310.000000, 70.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-104" transform="translate(310.000000, 30.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-109" transform="translate(310.000000, 10.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-78" transform="translate(310.000000, 160.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-89" transform="translate(310.000000, 120.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-97" transform="translate(310.000000, 80.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-105" transform="translate(310.000000, 40.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-82" transform="translate(310.000000, 140.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-90" transform="translate(310.000000, 100.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-98" transform="translate(310.000000, 60.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-106" transform="translate(310.000000, 20.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-110" transform="translate(310.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-35" transform="translate(200.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-43" transform="translate(110.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-51" transform="translate(100.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-59" transform="translate(190.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-31" transform="translate(250.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-36" transform="translate(160.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-44" transform="translate(70.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-52" transform="translate(60.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-60" transform="translate(150.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-68" transform="translate(240.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-29" transform="translate(270.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-37" transform="translate(180.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-45" transform="translate(90.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-53" transform="translate(80.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-61" transform="translate(170.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-69" transform="translate(260.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-32" transform="translate(230.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-38" transform="translate(140.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-46" transform="translate(50.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-54" transform="translate(40.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-62" transform="translate(130.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-70" transform="translate(220.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-28" transform="translate(280.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-39" transform="translate(190.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-47" transform="translate(100.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-55" transform="translate(90.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-63" transform="translate(180.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-71" transform="translate(270.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-33" transform="translate(240.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-40" transform="translate(150.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-48" transform="translate(60.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-56" transform="translate(50.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-64" transform="translate(140.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-72" transform="translate(230.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-30" transform="translate(260.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-41" transform="translate(170.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-49" transform="translate(80.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-57" transform="translate(70.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-65" transform="translate(160.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-73" transform="translate(250.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-34" transform="translate(220.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-111" transform="translate(180.000000, 100.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-117" transform="translate(20.000000, 30.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-113" transform="translate(180.000000, 90.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-118" transform="translate(0.000000, 30.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-115" transform="translate(180.000000, 80.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-119" transform="translate(0.000000, 20.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-112" transform="translate(190.000000, 100.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-120" transform="translate(20.000000, 20.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-114" transform="translate(190.000000, 90.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-121" transform="translate(10.000000, 30.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-116" transform="translate(190.000000, 80.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-122" transform="translate(10.000000, 20.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-42" transform="translate(130.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-50" transform="translate(40.000000, 190.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-58" transform="translate(30.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-66" transform="translate(120.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                    <g id="Pin-Copy-74" transform="translate(210.000000, 0.000000)">
+                        <rect id="Rectangle-1" x="0" y="0" width="10" height="10"></rect>
+                    </g>
+                </g>
+                <g id="Atmega" transform="translate(184.000000, 60.000000)">
+                    <rect id="Rectangle-95" fill="#000000" x="10" y="10" width="53" height="50"></rect>
+                    <rect id="Rectangle-96" fill="#D8D8D8" x="13" y="60" width="47" height="10"></rect>
+                    <rect id="Rectangle-96-Copy" fill="#D8D8D8" x="13" y="0" width="47" height="10"></rect>
+                    <rect id="Rectangle-96-Copy-2" fill="#D8D8D8" transform="translate(5.000000, 35.000000) rotate(-270.000000) translate(-5.000000, -35.000000) " x="-17" y="30" width="44" height="10"></rect>
+                    <rect id="Rectangle-96-Copy-3" fill="#D8D8D8" transform="translate(68.000000, 35.000000) rotate(-270.000000) translate(-68.000000, -35.000000) " x="46" y="30" width="44" height="10"></rect>
+                </g>
+            </g>
+            <g id="Dial" transform="translate(243.000000, 28.000000)">
+                <g id="Cables" transform="translate(111.000000, 92.000000)" stroke-width="5">
+                    <path d="M395.940048,185 L421,185 L421,25 L3,25" id="Path-1" stroke="#000000"></path>
+                    <path d="M396,205 L431,205 L431,50 L1,50 L1,40 L1,32" id="Path-1-Copy" stroke="#C4C4C4"></path>
+                    <path d="M396,215 L441,215 L441,-1.21681296e-08 L0.999999988,-1.21681296e-08 L0.999999988,10 L0.999999994,18" id="Path-1-Copy-2" stroke="#C4C4C4"></path>
+                    <path d="M1,18 L1,32" id="Path-4" stroke="#000000"></path>
+                </g>
+                <g>
+                    <path d="M112,224 C173.855892,224 224,173.855892 224,112 C224,50.144108 173.855892,0 112,0 C50.144108,0 0,50.144108 0,112 C0,173.855892 50.144108,224 112,224 Z M112,167.475728 C142.927946,167.475728 168,142.481916 168,111.650485 C168,80.8190552 142.927946,55.8252427 112,55.8252427 C81.072054,55.8252427 56,80.8190552 56,111.650485 C56,142.481916 81.072054,167.475728 112,167.475728 Z" id="Oval-6" fill="#FFFFFF"></path>
+                    <path d="M112,223.300971 C173.855892,223.300971 224,173.313346 224,111.650485 C224,49.987625 173.855892,0 112,0 C50.144108,0 0,49.987625 0,111.650485 C0,173.313346 50.144108,223.300971 112,223.300971 Z M112,167.475728 C142.927946,167.475728 168,142.481916 168,111.650485 C168,80.8190552 142.927946,55.8252427 112,55.8252427 C81.072054,55.8252427 56,80.8190552 56,111.650485 C56,142.481916 81.072054,167.475728 112,167.475728 Z M193.76,111.650485 C203.038384,111.650485 210.56,104.152342 210.56,94.9029126 C210.56,85.6534836 203.038384,78.1553398 193.76,78.1553398 C184.481616,78.1553398 176.96,85.6534836 176.96,94.9029126 C176.96,104.152342 184.481616,111.650485 193.76,111.650485 Z M175.84,73.6893204 C185.118384,73.6893204 192.64,66.1911766 192.64,56.9417476 C192.64,47.6923185 185.118384,40.1941748 175.84,40.1941748 C166.561616,40.1941748 159.04,47.6923185 159.04,56.9417476 C159.04,66.1911766 166.561616,73.6893204 175.84,73.6893204 Z M142.24,49.1262136 C151.518384,49.1262136 159.04,41.6280698 159.04,32.3786408 C159.04,23.1292117 151.518384,15.631068 142.24,15.631068 C132.961616,15.631068 125.44,23.1292117 125.44,32.3786408 C125.44,41.6280698 132.961616,49.1262136 142.24,49.1262136 Z M101.92,42.4271845 C111.198384,42.4271845 118.72,34.9290407 118.72,25.6796117 C118.72,16.4301826 111.198384,8.93203883 101.92,8.93203883 C92.6416162,8.93203883 85.12,16.4301826 85.12,25.6796117 C85.12,34.9290407 92.6416162,42.4271845 101.92,42.4271845 Z M63.84,60.2912621 C73.1183838,60.2912621 80.64,52.7931184 80.64,43.5436893 C80.64,34.2942603 73.1183838,26.7961165 63.84,26.7961165 C54.5616162,26.7961165 47.04,34.2942603 47.04,43.5436893 C47.04,52.7931184 54.5616162,60.2912621 63.84,60.2912621 Z M36.96,91.5533981 C46.2383838,91.5533981 53.76,84.0552543 53.76,74.8058252 C53.76,65.5563962 46.2383838,58.0582524 36.96,58.0582524 C27.6816162,58.0582524 20.16,65.5563962 20.16,74.8058252 C20.16,84.0552543 27.6816162,91.5533981 36.96,91.5533981 Z M28,131.747573 C37.2783838,131.747573 44.8,124.249429 44.8,115 C44.8,105.750571 37.2783838,98.2524272 28,98.2524272 C18.7216162,98.2524272 11.2,105.750571 11.2,115 C11.2,124.249429 18.7216162,131.747573 28,131.747573 Z M41.44,171.941748 C50.7183838,171.941748 58.24,164.443604 58.24,155.194175 C58.24,145.944746 50.7183838,138.446602 41.44,138.446602 C32.1616162,138.446602 24.64,145.944746 24.64,155.194175 C24.64,164.443604 32.1616162,171.941748 41.44,171.941748 Z M72.8,203.203883 C82.0783838,203.203883 89.6,195.70574 89.6,186.456311 C89.6,177.206882 82.0783838,169.708738 72.8,169.708738 C63.5216162,169.708738 56,177.206882 56,186.456311 C56,195.70574 63.5216162,203.203883 72.8,203.203883 Z M113.12,214.368932 C122.398384,214.368932 129.92,206.870788 129.92,197.621359 C129.92,188.37193 122.398384,180.873786 113.12,180.873786 C103.841616,180.873786 96.32,188.37193 96.32,197.621359 C96.32,206.870788 103.841616,214.368932 113.12,214.368932 Z" id="Oval-6" fill="#000000"></path>
+                    <text id="1" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="185.92" y="106.38835">1</tspan>
+                    </text>
+                    <text id="2" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="168" y="68.4271845">2</tspan>
+                    </text>
+                    <text id="3" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="134.4" y="43.8640777">3</tspan>
+                    </text>
+                    <text id="4" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="94.08" y="37.1650485">4</tspan>
+                    </text>
+                    <text id="5" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="56" y="52.7961165">5</tspan>
+                    </text>
+                    <text id="6" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="29.12" y="86.2912621">6</tspan>
+                    </text>
+                    <text id="7" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="20.16" y="126.485437">7</tspan>
+                    </text>
+                    <text id="8" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="33.6" y="166.679612">8</tspan>
+                    </text>
+                    <text id="9" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="64.96" y="197.941748">9</tspan>
+                    </text>
+                    <text id="0" font-family="Helvetica" font-size="26.7961165" font-weight="normal" fill="#000000">
+                        <tspan x="105.28" y="209.106796">0</tspan>
+                    </text>
+                </g>
+                <path d="M152.370925,227.533956 C161.993934,224.348219 171.13405,220.107458 179.653286,214.949225 C204.062022,196.366934 152.370925,216.469837 143.582023,165.110615 C134.850133,161.846375 139.045159,231.945505 152.370925,227.533956 Z" id="Oval-28" stroke="#000000" stroke-width="0.1" fill="url(#linearGradient-1)"></path>
+            </g>
+            <g id="Telephone-Not-Hanged" transform="translate(750.000000, 51.000000)">
+                <g id="Cables" transform="translate(0.000000, 65.000000)">
+                    <path d="M2,189 L258,189 L258,94" id="Path-5" stroke="#000000" stroke-width="5"></path>
+                    <path d="M280,94 L280,203.813433 L70,203.813433 L70,229 L0,229" id="Path-7" stroke="#C4C4C4" stroke-width="5"></path>
+                    <path d="M420,184 L420,194.2 L430,204 L430,235" id="Path-116" stroke="#0D93FF" stroke-width="5"></path>
+                    <path d="M420,184 L420,235" id="Path-117" stroke="#000000" stroke-width="5"></path>
+                    <path d="M420,184 L420,194.2 L410,204 L410,235" id="Path-118" stroke="#FF0000" stroke-width="5"></path>
+                    <path d="M446.000001,2.69118061e-13 C446.000001,2.69118061e-13 449.000001,1.65595448e-09 450.000001,2.69118061e-13 C462.000001,1.58862612e-09 480.999999,4 478.999999,17 C476.999999,30 461.999999,28.4922401 461.999999,33 C461.999999,38.9298855 479.999999,45.7931908 479.999999,52 C479.999999,57.7501991 456.999999,64.9728772 456.999999,71 C456.999999,75.8043382 469.999999,93.4131212 469.999999,98 C469.999999,102.751402 448.000001,103.466057 448.000001,108 C448.000001,113.984302 465.999999,116.787892 465.999999,123 C465.999999,128.298565 443.3695,132.692709 437.000001,137 C435.345302,138.118969 453.999999,159.576536 453.999999,161 C453.999999,167.028784 435,164 427,162 C419.000001,160 420.020824,175.188121 420.020824,184 L420.020824,194" id="Path-115" stroke="#000000" stroke-width="10"></path>
+                </g>
+                <path d="M266,0 C166.602485,0 86.0222767,24.0942918 86.0000046,53.8186593 C86.0000015,53.8220594 86,86.9598722 86,86.9598722 C86,93.0517795 90.936402,98 97.0257624,98 L152.215617,93.8591549 C158.182968,93.8591549 163.063269,89.0922424 163.236614,83.146352 L163.241379,53.8267641 C163.241379,47.7306275 168.176935,42.7887324 174.273638,42.7887324 L359.105673,42.7887324 C365.198621,42.7887324 370.137931,47.7369189 370.137931,53.8267641 C370.137931,53.8274663 370.137931,81.4387454 370.137931,81.4387454 C370.137931,87.5306527 375.076676,92.4788732 381.168927,92.4788732 L434.969004,98 C441.051741,98 446,93.0571664 446,86.9598722 L446,53.8288602 C445.97771,24.0942878 365.397507,0 266,0 Z" id="Oval-2" fill="#060606"></path>
+                <g id="Hanger" transform="translate(212.000000, 68.000000)">
+                    <rect id="Rectangle-110-Copy" fill="#A0A0A0" x="49" y="51" width="16" height="24"></rect>
+                    <path d="M42,83.5 L72,83.5" id="Path-8" stroke="#000000" stroke-width="5"></path>
+                    <path d="M42,72.5 L72,72.5" id="Path-8-Copy" stroke="#A0A0A0" stroke-width="5"></path>
+                    <path d="M66.1666667,55.4337943 L47.8333333,59.466055" id="Path-9" stroke="#525252"></path>
+                    <path d="M66.1666667,62.1542287 L47.8333333,66.1864894" id="Path-9-Copy-2" stroke="#525252"></path>
+                    <path d="M66.1666667,58.7940115 L47.8333333,62.8262722" id="Path-9-Copy" stroke="#525252"></path>
+                    <path d="M66.1666667,65.514446 L47.8333333,69.5467066" id="Path-9-Copy-3" stroke="#525252"></path>
+                    <path d="M1.00153876,14.2500361 C1.00153876,14.2500361 0.670382545,0.250228409 5.20148105,0.250228409 C14.6701902,0.250228409 15.0013465,14.2500361 29.0011541,14.2500361 L85.0003821,14.2500361 C99.0001897,14.2500361 99.0001897,0.250228409 107.400074,0.250228409 C112.999997,0.250228409 113,14.2500361 113,14.2500361 C113,14.2500361 112.999997,21.2499399 99.0001897,28.2498437 C85.0003821,35.2497475 29.0011541,35.2497475 15.0013467,28.2498437 C1.00153937,21.2499399 1.00153876,14.2500361 1.00153876,14.2500361 Z" id="Rectangle-111" fill="#000000"></path>
+                    <rect id="Rectangle-110" fill="#000000" x="47" y="15" width="20" height="40"></rect>
+                    <rect id="Rectangle-113" fill="#000000" x="54" y="75" width="6" height="6"></rect>
+                    <path d="M48,69.5 L66,69.5" id="Path-122" stroke="#525252"></path>
+                    <path d="M48,55.5 L66,55.5" id="Path-122-Copy" stroke="#525252"></path>
+                </g>
+            </g>
+            <g id="Phone" transform="translate(585.000000, 351.000000)">
+                <rect id="Pcb" fill="#C5925A" x="165" y="264" width="130" height="270"></rect>
+                <g id="Cables" transform="translate(0.000000, 229.000000)" stroke-width="5">
+                    <path d="M0,0 L0,275 L205,275 L205,55 L215,55" id="Path-13-Copy-16" stroke="#000000"></path>
+                    <path d="M170,0 L170,45 L215,45" id="Path-13" stroke="#C4C4C4"></path>
+                    <path d="M110,0 L110,165 L215,165" id="Path-13-Copy-6" stroke="#C4C4C4"></path>
+                    <path d="M140,0 L140,105 L215,105" id="Path-13-Copy-3" stroke="#C4C4C4"></path>
+                    <path d="M80,0 L80,225 L215,225" id="Path-13-Copy-7" stroke="#C4C4C4"></path>
+                    <path d="M160,0 L160,65 L215,65" id="Path-13-Copy" stroke="#C4C4C4"></path>
+                    <path d="M100,0 L100,185 L215,185" id="Path-13-Copy-8" stroke="#C4C4C4"></path>
+                    <path d="M130,0 L130,125 L215,125" id="Path-13-Copy-4" stroke="#C4C4C4"></path>
+                    <path d="M70,0 L70,245 L215,245" id="Path-13-Copy-9" stroke="#C4C4C4"></path>
+                    <path d="M10,0 L10,285 L215,285" id="Path-13-Copy-17" stroke="#C4C4C4" opacity="0.4"></path>
+                    <path d="M150,0 L150,85 L215,85" id="Path-13-Copy-2" stroke="#C4C4C4"></path>
+                    <path d="M90,0 L90,205 L215,205" id="Path-13-Copy-10" stroke="#C4C4C4"></path>
+                    <path d="M120,0 L120,145 L215,145" id="Path-13-Copy-5" stroke="#C4C4C4"></path>
+                    <path d="M60,0 L60,265 L215,265" id="Path-13-Copy-11" stroke="#C4C4C4"></path>
+                    <path d="M207,75 L215,75" id="Path-27" stroke="#000000"></path>
+                    <path d="M207,155 L215,155" id="Path-27-Copy-4" stroke="#000000"></path>
+                    <path d="M207,115 L215,115" id="Path-27-Copy-2" stroke="#000000"></path>
+                    <path d="M207,195 L215,195" id="Path-27-Copy-5" stroke="#000000"></path>
+                    <path d="M207,95 L215,95" id="Path-27-Copy" stroke="#000000"></path>
+                    <path d="M207,175 L215,175" id="Path-27-Copy-6" stroke="#000000"></path>
+                    <path d="M207,135 L215,135" id="Path-27-Copy-3" stroke="#000000"></path>
+                    <path d="M207,215 L215,215" id="Path-27-Copy-7" stroke="#000000"></path>
+                    <path d="M207,235 L215,235" id="Path-27-Copy-8" stroke="#000000"></path>
+                    <path d="M207,255 L215,255" id="Path-27-Copy-9" stroke="#000000"></path>
+                    <path d="M207,275 L215,275" id="Path-27-Copy-10" stroke="#000000"></path>
+                    <path d="M205,277 L205,295 L215,295" id="Path-91" stroke="#000000"></path>
+                </g>
+                <g id="Resistors" transform="translate(173.000000, 271.000000)">
+                    <g id="220K-Resistor">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-6" transform="translate(0.000000, 120.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-7" transform="translate(0.000000, 180.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-12" transform="translate(0.000000, 60.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-4" transform="translate(0.000000, 40.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-15" transform="translate(0.000000, 100.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-17" transform="translate(0.000000, 160.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-2" transform="translate(0.000000, 20.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-10" transform="translate(0.000000, 140.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-11" transform="translate(0.000000, 200.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-13" transform="translate(0.000000, 220.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                    <g id="220K-Resistor-Copy-16" transform="translate(0.000000, 80.000000)">
+                        <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                        <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                        <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                    </g>
+                </g>
+                <g id="Octocopler" transform="translate(215.000000, 270.000000)">
+                    <rect id="Rectangle-175" fill="#000000" x="10" y="0" width="30" height="78"></rect>
+                    <rect id="Rectangle-175-Copy" fill="#000000" x="10" y="80" width="30" height="78"></rect>
+                    <rect id="Rectangle-175-Copy-2" fill="#000000" x="10" y="160" width="30" height="78"></rect>
+                    <rect id="Rectangle-175-Copy-3" fill="#000000" x="10" y="240" width="30" height="18"></rect>
+                    <path d="M10,4 L0,4" id="Path-38" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,34 L0,34" id="Path-38-Copy-3" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,84 L0,84" id="Path-38-Copy-6" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,124 L0,124" id="Path-38-Copy-11" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,174 L0,174" id="Path-38-Copy-15" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,14 L0,14" id="Path-38-Copy" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,64 L0,64" id="Path-38-Copy-7" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,44 L0,44" id="Path-38-Copy-4" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,94 L0,94" id="Path-38-Copy-8" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,134 L0,134" id="Path-38-Copy-12" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,184 L0,184" id="Path-38-Copy-16" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,204 L0,204" id="Path-38-Copy-20" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,224 L0,224" id="Path-38-Copy-22" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,244 L0,244" id="Path-38-Copy-24" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,24 L0,24" id="Path-38-Copy-2" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,74 L0,74" id="Path-38-Copy-9" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,114 L0,114" id="Path-38-Copy-13" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,164 L0,164" id="Path-38-Copy-17" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,54 L0,54" id="Path-38-Copy-5" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,104 L0,104" id="Path-38-Copy-10" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,154 L0,154" id="Path-38-Copy-18" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,144 L0,144" id="Path-38-Copy-14" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,194 L0,194" id="Path-38-Copy-19" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,214 L0,214" id="Path-38-Copy-21" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,234 L0,234" id="Path-38-Copy-23" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M10,254 L0,254" id="Path-38-Copy-25" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,4 L40,4" id="Path-38" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,34 L40,34" id="Path-38-Copy-3" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,84 L40,84" id="Path-38-Copy-6" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,124 L40,124" id="Path-38-Copy-11" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,174 L40,174" id="Path-38-Copy-15" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,14 L40,14" id="Path-38-Copy" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,64 L40,64" id="Path-38-Copy-7" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,44 L40,44" id="Path-38-Copy-4" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,94 L40,94" id="Path-38-Copy-8" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,134 L40,134" id="Path-38-Copy-12" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,184 L40,184" id="Path-38-Copy-16" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,204 L40,204" id="Path-38-Copy-20" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,224 L40,224" id="Path-38-Copy-22" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,244 L40,244" id="Path-38-Copy-26" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,24 L40,24" id="Path-38-Copy-2" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,74 L40,74" id="Path-38-Copy-9" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,114 L40,114" id="Path-38-Copy-13" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,164 L40,164" id="Path-38-Copy-17" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,54 L40,54" id="Path-38-Copy-5" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,104 L40,104" id="Path-38-Copy-10" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,154 L40,154" id="Path-38-Copy-18" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,144 L40,144" id="Path-38-Copy-14" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,194 L40,194" id="Path-38-Copy-19" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,214 L40,214" id="Path-38-Copy-21" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,234 L40,234" id="Path-38-Copy-23" stroke="#E7E7E7" stroke-width="4"></path>
+                    <path d="M50,254 L40,254" id="Path-38-Copy-27" stroke="#E7E7E7" stroke-width="4"></path>
+                </g>
+                <rect id="Rectangle-184" fill="#184773" x="415" y="0" width="230" height="570" rx="15"></rect>
+                <rect id="Rectangle-185" stroke="#FFFFFF" stroke-width="4" fill="#000000" x="425" y="39" width="210" height="220"></rect>
+                <g id="Buttons" transform="translate(425.000000, 269.000000)">
+                    <g id="Button" transform="translate(0.000000, 10.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy" transform="translate(65.000000, 50.000000) rotate(-270.000000) translate(-65.000000, -50.000000) translate(45.000000, 35.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-7" transform="translate(25.000000, 70.000000) rotate(-270.000000) translate(-25.000000, -70.000000) translate(5.000000, 55.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-6" transform="translate(145.000000, 50.000000) rotate(-270.000000) translate(-145.000000, -50.000000) translate(125.000000, 35.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-8" transform="translate(185.000000, 70.000000) rotate(-270.000000) translate(-185.000000, -70.000000) translate(165.000000, 55.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-2" transform="translate(85.000000, 40.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-5" transform="translate(85.000000, 80.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-9" transform="translate(10.000000, 120.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-12" transform="translate(10.000000, 165.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-15" transform="translate(10.000000, 210.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-18" transform="translate(10.000000, 255.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-10" transform="translate(85.000000, 120.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-13" transform="translate(85.000000, 165.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-16" transform="translate(85.000000, 210.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-19" transform="translate(85.000000, 255.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-11" transform="translate(160.000000, 120.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-14" transform="translate(160.000000, 165.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-17" transform="translate(160.000000, 210.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-20" transform="translate(160.000000, 255.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-4" transform="translate(85.000000, 0.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                    <g id="Button-Copy-3" transform="translate(170.000000, 10.000000)">
+                        <circle id="Oval-30" fill="#9E7F4B" cx="20" cy="15" r="5"></circle>
+                        <rect id="Rectangle-186" stroke="#9E7F4B" stroke-width="5" x="0" y="0" width="40" height="30" rx="15"></rect>
+                    </g>
+                </g>
+                <g id="Cables" transform="translate(265.000000, 274.000000)" stroke-width="5">
+                    <path d="M0,0 L120,0 L150,0 L340,0 L340,48" id="Path-91" stroke="#000000"></path>
+                    <path d="M0,10 L120,10 L150,10 L330,10 L330,65 L345,65" id="Path-91-Copy" stroke="#C4C4C4"></path>
+                    <path d="M0,230 L40,230 L40,290 L340,290 L340,220" id="Path-92" stroke="#C4C4C4"></path>
+                    <path d="M330,232 L330,280 L50,280 L50,220 L0,220" id="Path-93" stroke="#000000"></path>
+                    <path d="M0,210 L60,210 L60,270 L265,269 L265,265" id="Path-94" stroke="#C4C4C4"></path>
+                    <path d="M0,150 L120,150 L120,210 L340,210 L340,176" id="Path-94-Copy" stroke="#C4C4C4"></path>
+                    <path d="M0,90 L190,90 L190,129" id="Path-94-Copy-2" stroke="#C4C4C4"></path>
+                    <path d="M281,255 L281,260 L70,260 L70,200 L0,200" id="Path-95" stroke="#000000"></path>
+                    <path d="M329,188 L329,200 L130,200 L130,140 L0,140" id="Path-95-Copy-5" stroke="#000000"></path>
+                    <path d="M200,117 L200,80 L0,80" id="Path-95-Copy-10" stroke="#000000"></path>
+                    <path d="M265,232 L265,250 L240,250 L80,250 L80,190 L0,190" id="Path-95-Copy" stroke="#C4C4C4"></path>
+                    <path d="M265,176 L265,190 L240,190 L140,190 L140,130 L0,130" id="Path-95-Copy-6" stroke="#C4C4C4"></path>
+                    <path d="M174,70 L0,70" id="Path-95-Copy-11" stroke="#000000"></path>
+                    <path d="M265,220 L240,220 L240,240 L90,240 L90,180 L0,180" id="Path-95-Copy-2" stroke="#000000"></path>
+                    <path d="M248,180 L150,180 L150,120 L0,120" id="Path-95-Copy-7" stroke="#000000"></path>
+                    <path d="M185,60 L0,60" id="Path-95-Copy-12" stroke="#C4C4C4"></path>
+                    <path d="M174,230 L100,230 L100,170 L0,170" id="Path-95-Copy-3" stroke="#000000"></path>
+                    <path d="M190,171 L160,171 L160,110 L0,110" id="Path-95-Copy-8" stroke="#C4C4C4"></path>
+                    <path d="M265,130 L230,130 L230,50 L160,50 L0,50" id="Path-95-Copy-13" stroke="#C4C4C4"></path>
+                    <path d="M330,118 L330,110 L250,110 L250,30 L0,30" id="Path-95-Copy-15" stroke="#000000"></path>
+                    <path d="M190,221 L110,221 L110,160 L0,160" id="Path-95-Copy-4" stroke="#C4C4C4"></path>
+                    <path d="M184,161 L170,161 L170,100 L0,100" id="Path-95-Copy-9" stroke="#000000"></path>
+                    <path d="M250,118 L240,118 L240,40 L0,40" id="Path-95-Copy-14" stroke="#000000"></path>
+                    <path d="M340,130 L340,100 L260,100 L260,20 L0,20" id="Path-95-Copy-16" stroke="#C4C4C4"></path>
+                    <path d="M380,245 L400,245 L400,315 L28,315 L27.9999999,240 L-2.58933142e-08,240" id="Path-119" stroke="#000000"></path>
+                    <path d="M380,235 L410,235 L410,325 L18,325 L17.9999999,250 L0,250" id="Path-119-Copy" stroke="#C4C4C4"></path>
+                </g>
+                <g id="220K-Resistor-Copy-14" transform="translate(264.000000, 521.000000)">
+                    <rect id="Rectangle-115" fill="#FFE4AC" x="0" y="0" width="16" height="6" rx="8"></rect>
+                    <rect id="Rectangle-116" fill="#F2BD54" x="12" y="0" width="1" height="6"></rect>
+                    <rect id="Rectangle-116-Copy" fill="#803D1E" x="9" y="0" width="1" height="6"></rect>
+                    <rect id="Rectangle-116-Copy-2" fill="#FF0000" x="6" y="0" width="1" height="6"></rect>
+                    <rect id="Rectangle-116-Copy-3" fill="#FF0202" x="3" y="0" width="1" height="6"></rect>
+                </g>
+            </g>
+            <g id="Hbridge" transform="translate(340.000000, 900.000000) rotate(-90.000000) translate(-340.000000, -900.000000) translate(310.000000, 860.000000)">
+                <path d="M26,0 L10,0 L10,80 L50,80 L50,0 L34,0 C34,1.69933769 32.209139,3.07692308 30,3.07692308 C27.790861,3.07692308 26,1.69933769 26,-1.73194792e-14 Z" id="Rectangle-175-Copy-4" fill="#000000"></path>
+                <path d="M10,15 L0,15" id="Path-38-Copy-28" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M10,25 L0,25" id="Path-38-Copy-29" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M10,45 L0,45" id="Path-38-Copy-30" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M10,65 L0,65" id="Path-38-Copy-31" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M10,5 L0,5" id="Path-38-Copy-32" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M10,35 L0,35" id="Path-38-Copy-33" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M10,55 L0,55" id="Path-38-Copy-34" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M10,75 L0,75" id="Path-38-Copy-35" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M60,15 L50,15" id="Path-38-Copy-36" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M60,25 L50,25" id="Path-38-Copy-37" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M60,45 L50,45" id="Path-38-Copy-38" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M60,65 L50,65" id="Path-38-Copy-39" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M60,5 L50,5" id="Path-38-Copy-40" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M60,35 L50,35" id="Path-38-Copy-41" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M60,55 L50,55" id="Path-38-Copy-42" stroke="#A19D9D" stroke-width="4"></path>
+                <path d="M60,75 L50,75" id="Path-38-Copy-43" stroke="#A19D9D" stroke-width="4"></path>
+            </g>
+            <g id="Ringer" transform="translate(56.000000, 345.000000)">
+                <rect id="Rectangle-207" fill="#8C724D" x="244" y="185" width="100" height="250"></rect>
+                <rect id="Rectangle-207-Copy" fill="#8C724D" x="44" y="185" width="100" height="250"></rect>
+                <rect id="Rectangle-209" fill="#C16357" x="34" y="199.72977" width="120" height="220" rx="15"></rect>
+                <rect id="Rectangle-217" fill="#C16357" x="134" y="415" width="120" height="5"></rect>
+                <rect id="Rectangle-209-Copy" fill="#C16357" x="234" y="199.72977" width="120" height="220" rx="15"></rect>
+                <circle id="Oval-51-Copy-2" stroke="#B69B8B" stroke-width="6" fill="url(#radialGradient-2)" cx="94" cy="95" r="80"></circle>
+                <circle id="Oval-51-Copy-3" stroke="#B69B8B" stroke-width="6" fill="url(#radialGradient-2)" cx="294" cy="95" r="80"></circle>
+                <rect id="Rectangle-211" fill="#594931" x="34" y="195" width="320" height="5"></rect>
+                <rect id="Rectangle-211-Copy" fill="#594931" x="34" y="420" width="320" height="5"></rect>
+                <g id="Group" transform="translate(44.000000, 80.000000)">
+                    <rect id="Rectangle-215" fill="#000000" x="147" y="10" width="6" height="360"></rect>
+                    <circle id="Oval-51" fill="#A7A7A7" cx="150" cy="15" r="15"></circle>
+                    <path d="M0,370 L300,370 L300,380 L210,380 C170,380 170.147491,405 150,405 C129.995364,405 130,380 90,380 L0,380 L0,370 Z" id="Rectangle-214" fill="#533E20"></path>
+                    <circle id="Oval-54" stroke="#FFFFFF" stroke-width="7" fill="#000000" cx="150" cy="388" r="8"></circle>
+                    <rect id="Rectangle-216" fill="#8C724D" x="210" y="360" width="80" height="10"></rect>
+                    <rect id="Rectangle-216-Copy" fill="#8C724D" x="10" y="360" width="80" height="10"></rect>
+                </g>
+                <g id="Cables" stroke-width="5">
+                    <path d="M514,10 L484,10 L484,620.00099 L289,620.00099 L289,585" id="Path-140" stroke="#000000"></path>
+                    <path d="M569,235 L569,610 L309,610 L309,585" id="Path-141" stroke="#C4C4C4"></path>
+                    <path d="M559,235 L559,600.001968 L258.998275,600.001968 L258.998275,585" id="Path-142" stroke="#C4C4C4"></path>
+                    <path d="M514,0 L469,0 L469,590 L319,590 L319,585" id="Path-143" stroke="#FF0000"></path>
+                    <path d="M299,585 L299,610 L229,610 L229,509.995833 L-3.79050107e-08,509.995833 L-3.79050107e-08,190 L44,190" id="Path-144" stroke="#C4C4C4"></path>
+                    <path d="M269,585 L269,590 L239,590 L239,509.995 L369,509.994995 L369,190 L344,190" id="Path-145" stroke="#C4C4C4"></path>
+                </g>
+            </g>
+            <g id="Ringer-Copy-2" transform="translate(56.000000, 345.000000)">
+                <rect id="Rectangle-207" fill="#8C724D" x="244" y="185" width="100" height="250"></rect>
+                <rect id="Rectangle-207-Copy" fill="#8C724D" x="44" y="185" width="100" height="250"></rect>
+                <rect id="Rectangle-209" fill="#C16357" x="34" y="199.72977" width="120" height="220" rx="15"></rect>
+                <rect id="Rectangle-217" fill="#C16357" x="134" y="415" width="120" height="5"></rect>
+                <rect id="Rectangle-209-Copy" fill="#C16357" x="234" y="199.72977" width="120" height="220" rx="15"></rect>
+                <circle id="Oval-51-Copy-3" stroke="#B69B8B" stroke-width="6" fill="url(#radialGradient-2)" cx="294" cy="95" r="80"></circle>
+                <rect id="Rectangle-211" fill="#594931" x="34" y="195" width="320" height="5"></rect>
+                <rect id="Rectangle-211-Copy" fill="#594931" x="34" y="420" width="320" height="5"></rect>
+                <g id="Cables" stroke-width="5">
+                    <path d="M514,10 L484,10 L484,620.00099 L289,620.00099 L289,585" id="Path-140" stroke="#000000"></path>
+                    <path d="M569,235 L569,610 L309,610 L309,585" id="Path-141" stroke="#FF0000"></path>
+                    <path d="M559,235 L559,600.001968 L258.998275,600.001968 L258.998275,585" id="Path-142" stroke="#C4C4C4"></path>
+                    <path d="M514,0 L469,0 L469,590 L319,590 L319,585" id="Path-143" stroke="#FF0000"></path>
+                    <path d="M299,585 L299,610 L229,610 L229,509.995833 L-3.79050107e-08,509.995833 L-3.79050107e-08,190 L44,190" id="Path-144" stroke="#000000"></path>
+                    <path d="M269,585 L269,590 L239,590 L239,509.995 L369,509.994995 L369,190 L344,190" id="Path-145" stroke="#FF0000"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
