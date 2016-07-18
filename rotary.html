@@ -176,7 +176,7 @@
                   </table>
                   <div class="note_background">
                     <p class="side_note_title">WTF is an Optocoupler and why do I use it?</p>
-                    <p class="side_note">An Optocoupler has two different circuit inside, if the first one is HIGH, the second one closes. It works basically like a transistor, with the difference thet the two circuits are seprated.<br>The first circuit has an Led inside (that's why we need to put a resistor before) The second one basically has a light detector, that has the property of letting current pass through if it detects light.<br>So why have i used this instead of a normal transistor? Well, the thing with transistors is that the two circuits would need to have the same current. In my case they don't (arduino run on 5v and the Phone on 3.3v)</p>
+                    <p class="side_note">An Optocoupler has two different circuit inside, if the first one is HIGH, the second one closes. It works basically like a transistor, with the difference thet the two circuits are seprated.<br>The first circuit has an Led inside (that's why we need to put a resistor before) The second one basically has a light detector, that has the property of letting current pass through if it detects light.<br>So why have i used this instead of a normal transistor? Well, the thing with transistors is that the two circuits would need to have the same current. In my case they don't (the arduino runs on 5v and the Phone on 3.3v)</p>
                   </div>
                   <p class="top_space_50">When that pin is set to HIGH (5v are coming out of that pin), the optocoupler closes the circuit and the number is "pressed" on the phone.</p>
                   <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
@@ -194,8 +194,8 @@
                     <p>(Clic on the video to pause/play it) </p>
                     <p class="top_space_25">The ringing noise is produced by a metal piece that hits the two bells really fast one at a time. The movement is produced by two electromagnets that each atract or push away a magnet piece. When one atracts, the other pushes away. To do this, i needed to change the current direction really fast. For that i used an H-Bridge. </p>
                     <div class="note_background">
-                      <p>class="side_note_title">WTF is a H-Bridge?</p>
-                      <p>class="side_note">It is basically a chip which integrates a simple transistor circuit. It is used to change the direction of current.<br>Each H-Bridge can be used for two separate circuits. To use it, you have to connect the input power, output power, and two digital pins. Basically, when one of the pins is HIGH, the H-Bridge outputs the power in one direction and whrn the other one is HIGH, it outputs it in the other direction.<br>In the illustration below you can see how it works</p>
+                      <p class="side_note_title">WTF is a H-Bridge?</p>
+                      <p class="side_note">It is basically a chip which integrates a simple transistor circuit. It is used to change the direction of current.<br>Each H-Bridge can be used for two separate circuits. To use it, you have to connect the input power, output power, and two digital pins. Basically, when one of the pins is HIGH, the H-Bridge outputs the power in one direction and whrn the other one is HIGH, it outputs it in the other direction.<br>In the illustration below you can see how it works</p>
                     </div>
                     <video class=" projects_video top_space_25 " loop autoplay id="projects_video">
                       <source src="assets/videos/projects_rotary_4.mp4" type="video/mp4">

@@ -7,6 +7,7 @@
 
 }
 
+
 .caption {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -26,11 +27,29 @@
   border-radius: 0px;
   position: relative;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .tag_names{
   text-align: left;
   position: relative;
 }
+.tag_price p{
+  display: inline;
+  border-style: solid;
+  border-width: 4px;
+  background:rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.0);
+  color: white;
+  border-radius: 0px;
+  position: relative;
+  font-weight: regular;
+  font-size: 20px;
+}
+.tag_price{
+  text-align: right;
+  position: relative;
+}
+
 .thumbnail_home {
 margin-bottom: 30px;
  position: relative;
