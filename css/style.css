@@ -3,7 +3,6 @@
   font-family: 'Ubuntu', sans-serif;
   font-weight: lighter;
   color:white;
-  position: relative;
 
 }
 
@@ -289,6 +288,18 @@ position: relative;
     padding-right: 7%;
     padding-left: 7%;
   }
+}
+
+@media only screen and (max-width: 600px) {
+  .hidden_phone{
+    visibility: hidden;
+  }
+  .caption_text h1{
+    font-size: 30px;
+  }
+  .caption_text p{
+    font-size: 0px;
+
 }
 @media only screen and (max-width: 700px) {
 .projects_page_title h1{
