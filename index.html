@@ -1,233 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>Alvaro Garcia Weissenborn</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700|Poiret+One' rel='stylesheet' type='text/css'>
-  <script src="js/jquery.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/animations.js"></script>
-  <script src="js/bodymovin.js"></script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-76144209-1', 'auto');
-  ga('send', 'pageview');
-</script>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Alvaro Garcia Weissenborn</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700|Poiret+One' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/bodymovin.js"></script>
+    <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-76144209-1', 'auto');
+        ga('send', 'pageview');
+    </script>
 
 </head>
-<body >
-  <div id="wrapper">
-    <div id="page-content-wrapper " >
-      <div  class=" page_head_background bottom_space_100">
-        <div class="side_space_home_100">
-          <div class="row">
-            <div class="col-lg-12 ">
-              <div class="page_title color_white">
-                <h1>Welcome to my website!</h1>
-              </div>
+
+<body>
+    <div id="wrapper">
+        <div id="page-content-wrapper ">
+            <div class=" page_head_background top_space_50 side_space_home_100">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <img class="project_image img-responsive" src="assets/images/logo.svg" alt="...">
+                        <div class="ingredients_title_black top_space_100">
+                            <h1>Alvaro Garcia Weissenborn. 22, Interface Designer. Living in Potsdam</h1>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <img class="project_image img-responsive" src="assets/images/me.png" alt="...">
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-8 col-md-12">
-              <div class="ingredients_title_white top_space_25">
-                <h1>A little bit about Me...</h1>
-              </div>
-              <div class="content_text_description top_space_25 ">
-                <p>Hey there! My Name is Alvaro Garcia Weissenborn and I'm currently studying interface design at the Fh-Potsdam. Living in Potsdam, a nice town at only 20 min. away from Berlin.<br>I’m originally from Madrid, Spain, where I attended school and High school and basically lived my whole life. I would classify myself as a curious person, always trying out new ways and interested in many different paths, such as cinematography, photography, technology, mountain bike, nature, painting,.. Paths that have, for example, carried me to spend half a year in a farm in England. My interest in technology has driven me to leave my home country one year ago and start studying here in Germany. I got interested in interface design because of its importance in the modern world and because its something alive, evolving every day. One year ago I was introduced to the world of code and since then I have experimented with Processing, Arduino, Javascript, Html, CSS, and jquery. This website is actually my first page which I've coded from scratch. I want it to be a potfolio for my projects and tutorials. </p>
-              </div>
+            <div class="page_shadow">
             </div>
-            <div class="col-lg-4 ">
-              <video class=" projects_video top_space_25 "autoplay id="projects_video" poster="assets/images/about_me_1.png">
-                <source src="assets/videos/about_me_1.mp4" type="video/mp4">
-                </video>
-              </div>
+
+            <div class="page_projects_background bottom_space_100">
+                <div class="side_space_home_100">
+                    <div class="row">
+                        <div class="col-lg-12 page_title color_black">
+                            <h1>My projects</h1>
+                        </div>
+                        <div class="col-lg-12 tag_search">
+                            <h6>Show only:</h6>
+                            <a href="#slider" id="slider_tag_search" style="text-decoration: none">
+                                <p>#slider</p>
+                            </a>
+                            <a href="#hyperlapse" id="hyperlapse_tag_search" style="text-decoration: none">
+                                <p>#hyperlapse</p>
+                            </a>
+                            <a href="#video" id="video_tag_search" style="text-decoration: none">
+                                <p>#video</p>
+                            </a>
+                            <a href="#diy" id="diy_tag_search" style="text-decoration: none">
+                                <p>#diy</p>
+                            </a>
+                            <a href="#arduino" id="arduino_tag_search" style="text-decoration: none">
+                                <p>#arduino</p>
+                            </a>
+                            <a href="#tool" id="tool_tag_search" style="text-decoration: none">
+                                <p>#tool</p>
+                            </a>
+                            <a href="#showall" id="showall_tag_search" class="tag_search_showall" style="text-decoration: none">
+                                <p>Show_all</p>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6  col-md-12 diy_tag tag_display tool_tag">
+
+                                <div class="thumbnail_home">
+                                    <a href="tester">
+                                        <img class="project_image img-responsive" src="assets/images/projects_tester.png" alt="...">
+                                        <div class="caption">
+                                            <div class="caption_text">
+                                                <h1>Continuity Tester</h1>
+                                                <p>Here you will learn how to do a continuity tester, a really simple and useful tool for working with circuits.</p>
+                                            </div>
+                                            <div class="tag_price">
+                                                <p>
+                                                    ±2€
+                                                </p>
+                                            </div>
+                                            <div class="tag_names">
+                                                <p>#diy</p>
+                                                <p>#tool</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6  col-md-12 diy_tag tag_display slider_tag video_tag">
+
+                                <div class="thumbnail_home">
+                                    <a href="slider_controller">
+                                        <img class="project_image img-responsive" src="assets/images/projects_slider_controller.png" alt="...">
+                                        <div class="caption">
+                                            <div class="caption_text">
+                                                <h1>Slider Controller</h1>
+                                                <p>Here I will show you how you can build your own fully functional yet affordable slider controller.</p>
+                                            </div>
+                                            <div class="tag_price">
+                                                <p>
+                                                    ±30€
+                                                </p>
+                                            </div>
+                                            <div class="tag_names">
+                                                <p>#diy</p>
+                                                <p>#slider</p>
+                                                <p>#video</p>
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6  col-md-12 diy_tag tag_display arduino_tag">
+                                <div class="thumbnail_home">
+                                    <a href="rotary">
+                                        <img class="project_image img-responsive" src="assets/images/projects_rotary_1.png" alt="...">
+                                        <div class="caption">
+                                            <div class="caption_text">
+                                                <h1>Wireless Rotary Phone</h1>
+                                                <p>You always wanted a wireless retro phone? Congratulations! I will show you how you can achieve such thing.</p>
+                                            </div>
+                                            <div class="tag_price">
+                                                <p>
+                                                    ±60€
+                                                </p>
+                                            </div>
+                                            <div class="tag_names">
+                                                <p>#diy</p>
+                                                <p>#arduino</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6  col-md-12 slider_tag tag_display diy_tag video_tag">
+                                <div class="thumbnail_home">
+                                    <a href="mini-slider">
+                                        <img class="project_image img-responsive" src="assets/images/projects_slider_1.png" alt="...">
+
+                                        <div class="caption">
+
+                                            <div class="caption_text">
+                                                <h1>Mini Slider Tutorial</h1>
+                                                <p>Here I will show you how you can do your own slider for lightweight cameras such as GoPro and compact cameras.</p>
+                                            </div>
+                                            <div class="tag_price">
+                                                <p>
+                                                    ±40€
+                                                </p>
+                                            </div>
+                                            <div class="tag_names">
+                                                <p>#slider</p>
+                                                <p>#diy</p>
+                                                <p>#video</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6  col-md-12 tag_display hyperlapse_tag video_tag">
+                                <div class="thumbnail_home">
+                                    <a href="hyperlapse">
+                                        <img class="project_image img-responsive" src="assets/images/projects_hyperlapse_1.png" alt="...">
+                                        <div class="caption">
+                                            <div class="caption_text">
+                                                <h1>Hyperlapse Tutorial</h1>
+
+                                                <p>Here I will show you how to achive a professional finish in your Hyperlapses.</p>
+                                            </div>
+                                            <div class="tag_names">
+                                                <p>#hyperlapse</p>
+                                                <p>#video</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="page_shadow">
+            </div>
+
+            <div class="footer_page ">
+                <div class="row">
+                    <div class="col-lg-12 page_title1 color_white">
+                        <h1>Wanna tell me something?</h1>
+                    </div>
+                </div>
+                <div class="top_space_25 footer_icon" align="middle">
+                    <a href="https://www.youtube.com/varusgarcia">
+                        <img src="assets/images/youtube.svg" alt="youtube" class="img-responsive" />
+                    </a>
+                    <a href="https://dribbble.com/varusgarcia">
+                        <img src="assets/images/dribble.svg" alt="dribble" class="img-responsive" />
+                    </a>
+                    <a href="https://twitter.com/varusgarcia">
+                        <img src="assets/images/twitter.svg" alt="twitter" class="img-responsive" />
+                    </a>
+                    <a href="https://www.facebook.com/alvarogarciaweissenborn">
+                        <img src="assets/images/facebook.svg" alt="facebook" class="img-responsive" />
+                    </a>
+                </div>
+                <p>© 2015 Alvaro Garcia Weissenborn
+                    <p>
+            </div>
         </div>
-        <div class="page_shadow">
-        </div>
-        <div  class="page_projects_background bottom_space_100">
-          <div class="side_space_home_100">
-            <div class="row">
-              <div class="col-lg-12 page_title color_black">
-                <h1>What have I been doing?</h1>
-              </div>
-              <div class="col-lg-12 tag_search">
-                <h6>Show only:</h6>
-                <a href="#slider" id="slider_tag_search"  style="text-decoration: none">
-                  <p>#slider</p>
-                </a>
-                <a href="#hyperlapse" id="hyperlapse_tag_search" style="text-decoration: none">
-                  <p>#hyperlapse</p>
-                </a>
-                <a href="#video" id="video_tag_search" style="text-decoration: none">
-                  <p>#video</p>
-                </a>
-                <a href="#diy" id="diy_tag_search" style="text-decoration: none">
-                  <p>#diy</p>
-                </a>
-                <a href="#arduino" id="arduino_tag_search" style="text-decoration: none">
-                  <p>#arduino</p>
-                </a>
-                <a href="#tool" id="tool_tag_search" style="text-decoration: none">
-                  <p>#tool</p>
-                </a>
-                <a href="#showall" id="showall_tag_search" class="tag_search_showall" style="text-decoration: none">
-                  <p>Show_all</p>
-                </a>
-              </div>
-              <div class="row">
-                <div class="col-lg-6  col-md-12 diy_tag tag_display tool_tag">
-
-                  <div class="thumbnail_home">
-                    <a href="tester">
-                      <img class="project_image img-responsive"src="assets/images/projects_tester.png" alt="...">
-                      <div class="caption">
-                        <div class="caption_text">
-                          <h1>Continuity Tester</h1>
-                          <p>Here you will learn how to do a continuity tester, a really simple and useful tool for working with circuits.</p>
-                      </div>
-                      <div class="tag_price">
-                        <p>
-                          ±2€
-                        </p>
-                      </div>
-                      <div class="tag_names">
-                        <p>#diy</p>
-                        <p>#tool</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-                <div class="col-lg-6  col-md-12 diy_tag tag_display slider_tag video_tag">
-
-                  <div class="thumbnail_home">
-                    <a href="slider_controller">
-                      <img class="project_image img-responsive"src="assets/images/projects_slider_controller.png" alt="...">
-                      <div class="caption">
-                        <div class="caption_text">
-                          <h1>Slider Controller</h1>
-                          <p>Here I will show you how you can build your own fully functional yet affordable slider controller.</p>
-                      </div>
-                      <div class="tag_price">
-                        <p>
-                          ±30€
-                        </p>
-                      </div>
-                      <div class="tag_names">
-                        <p>#diy</p>
-                        <p>#slider</p>
-                        <p>#video</p>
-                      </div>
-
-                    </div>
-                  </a>
-                </div>
-              </div>
-                <div class="col-lg-6  col-md-12 diy_tag tag_display arduino_tag">
-                  <div class="thumbnail_home">
-                    <a href="rotary">
-                      <img class="project_image img-responsive"src="assets/images/projects_rotary_1.png" alt="...">
-                      <div class="caption">
-                        <div class="caption_text">
-                          <h1>Wireless Rotary Phone</h1>
-                          <p>You always wanted a wireless retro phone? Congratulations! I will show you how you can achieve such thing.</p>
-                      </div>
-                      <div class="tag_price">
-                        <p>
-                          ±60€
-                        </p>
-                      </div>
-                      <div class="tag_names">
-                        <p>#diy</p>
-                        <p>#arduino</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-                <div class="col-lg-6  col-md-12 slider_tag tag_display diy_tag video_tag">
-                  <div class="thumbnail_home">
-                    <a href="mini-slider">
-                      <img class="project_image img-responsive" src="assets/images/projects_slider_1.png" alt="...">
-
-                      <div class="caption">
-
-                        <div class="caption_text">
-                          <h1>Mini Slider Tutorial</h1>
-                        <p>Here I will show you how you can do your own slider for lightweight cameras such as GoPro and compact cameras.</p>
-                      </div>
-                      <div class="tag_price">
-                        <p>
-                          ±40€
-                        </p>
-                      </div>
-                      <div class="tag_names">
-                        <p>#slider</p>
-                        <p>#diy</p>
-                        <p>#video</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-                <div class="col-lg-6  col-md-12 tag_display hyperlapse_tag video_tag">
-                  <div class="thumbnail_home">
-                    <a href="hyperlapse">
-                      <img class="project_image img-responsive" src="assets/images/projects_hyperlapse_1.png" alt="...">
-                      <div class="caption">
-                        <div class="caption_text">
-                          <h1>Hyperlapse Tutorial</h1>
-
-                        <p>Here I will show you how to achive a professional finish in your Hyperlapses.</p>
-                      </div>
-                      <div class="tag_names">
-                        <p>#hyperlapse</p>
-                        <p>#video</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-        </div>
-      </div>
     </div>
-  </div>
-  <div class="page_shadow">
-  </div>
-
-  <div class="footer_page ">
-    <div class="row">
-      <div class="col-lg-12 page_title1 color_white">
-        <h1>Wanna tell me something?</h1>
-      </div>
-    </div>
-    <div class="top_space_25 footer_icon" align="middle">
-      <a href="https://www.youtube.com/varusgarcia">
-        <img src="assets/images/youtube.svg" alt="youtube" class="img-responsive"/>
-      </a>
-      <a href="https://dribbble.com/varusgarcia">
-        <img src="assets/images/dribble.svg" alt="dribble" class="img-responsive"/>
-      </a>
-      <a href="https://twitter.com/varusgarcia">
-        <img src="assets/images/twitter.svg" alt="twitter" class="img-responsive"/>
-      </a>
-      <a href="https://www.facebook.com/alvarogarciaweissenborn">
-        <img src="assets/images/facebook.svg" alt="facebook" class="img-responsive"/>
-      </a>
-    </div>
-    <p>© 2015 Alvaro Garcia Weissenborn<p>
-    </div>
-  </div>
-</div>
 </body>
+
 </html>
