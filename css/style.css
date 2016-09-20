@@ -148,6 +148,7 @@ position: relative;
 }
 
 .tag_search{
+  line-height: 250%;
   padding-bottom: 20px;
 }
 /*PROJECTS*/
