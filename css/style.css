@@ -75,7 +75,16 @@ margin-bottom: 30px;
 position: relative;
 }
 
+.portrait_image {
 
+}
+
+.logo_image{
+  padding-top: 30px;
+  width:40%;
+  height: 40%;
+  position: relative;
+}
 
 .page_title h1{
   font-family: 'Poiret One', cursive;
@@ -148,7 +157,7 @@ position: relative;
 }
 
 .tag_search{
-  line-height: 250%;
+  line-height: 25x0%;
   padding-bottom: 20px;
 }
 /*PROJECTS*/
