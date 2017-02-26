@@ -171,7 +171,7 @@ position: relative;
   font-weight: lighter;
 }
 .back_to_home_button a{
-  color: #FFB800;
+  color: #AAA9AB;
   text-decoration: none;
   text-shadow: 0.3px 0.3px 0.3px rgb(100, 100, 100);
 }
@@ -183,7 +183,7 @@ position: relative;
   font-size: 100px;
   padding-top: 100px;
   padding-bottom: 100px;
-  color: #FFB800;
+  color: #AAA9AB;
 }
 .projects_head_background{
   background-color: #232A2F;
