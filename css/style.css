@@ -3,12 +3,13 @@
   font-family: 'Ubuntu', sans-serif;
   font-weight: lighter;
   color:white;
+  text-shadow: 0.3px 0.3px 1px rgb(50,50,50);
 
 }
 
 
 .caption {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.35);
   position: absolute;
   width: 100%;
   bottom: 0px;
@@ -20,12 +21,11 @@
   display: inline;
   border-style: solid;
   border-width: 4px;
-  background:#FFB800;
-  border-color: #FFB800;
-  color: #212930;
+  background:rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.0);
+  color: white;
   border-radius: 0px;
   position: relative;
-  font-weight: bold;
   margin-bottom: 10px;
 }
 .tag_names{
@@ -89,10 +89,11 @@ position: relative;
 .page_title h1{
   font-family: 'Poiret One', cursive;
   text-align: center;
-  font-size: 100px;
+  font-size: 70px;
   padding-top: 100px;
   padding-bottom: 100px;
-  text-shadow: 0.5px 0.5px 0.5px #DA9F00;
+  text-shadow: 0.3px 0.3px 1px grey;
+
 }
 .page_title1 h1{
   font-family: 'Poiret One', cursive;
@@ -100,7 +101,8 @@ position: relative;
   font-size: 50px;
   padding-top: 10;
   padding-bottom: 10;
-  text-shadow: 0.3px 0.3px 1px black;
+  text-shadow: 0.3px 0.3px 1px rgb(50,50,50);
+  color: #AAA9AB;
 }
 
 
@@ -113,9 +115,9 @@ position: relative;
   display: inline;
   border-style: solid;
   border-width: 4px;
-  background: #212930;
-  border-color: #212930;
-  color: #FFB800;
+  background: #AAA9AB;
+  border-color: #AAA9AB;
+  color: white;
   border-radius: 0px;
   font-size: 15px;
 }
@@ -135,7 +137,7 @@ position: relative;
 }
 
 .footer_page{
-  background-color: #232A2F;
+  background-color: #DCDEDE;
   overflow: hidden;
 }
 .footer_page p{
@@ -182,13 +184,12 @@ position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
   color: #FFB800;
-  text-shadow: 0.3px 0.3px 0.3px rgb(100, 100, 100);
 }
 .projects_head_background{
   background-color: #232A2F;
 }
 .page_projects_background{
-  background-color: #FFB900;
+  background-color: #EBEDED;
 }
 .page_contact_background{
   background-color: #2C323B;
@@ -208,7 +209,7 @@ position: relative;
 }
 .page_shadow{
   height: 5px;
-  background-color: #D99E00;
+  background-color: #AAA9AB;
 
 }
 .content_text_description{
@@ -368,9 +369,7 @@ position: relative;
 
 }
 
-.color_white{
-  color: #FFB800;
-}
+
 .color_black{
   color: #212930;
 }
