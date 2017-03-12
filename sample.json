@@ -1,0 +1,26 @@
+{
+  "1": [
+    {
+      "Name":"M.iliopsoas",
+      "Group":"Hüft- und Gesäßmuskulatur",
+      "Ursprung_1_Multimuskeln":"M.psoas major:",
+      "Ursprung_1":"Brustwirbelkörper Th12-L4, Procc.costae L1-L5",
+      "Ursprung_2_Multimuskeln":"M.illiacus:",
+      "Ursprung_2":"Fossa Iliaca (Os ilium)",
+      "Ursprung_3_Multimuskeln":"",
+      "Ursprung_3":"",
+      "Ursprung_4_Multimuskeln":"",
+      "Ursprung_4":"",
+      "Ansatz_1_Multimuskeln":"",
+      "Ansatz_1":"Trochanter minor (Femur)",
+      "Ansatz_2_Multimuskeln":"",
+      "Ansatz_2":"",
+      "Ansatz_3_Multimuskeln":"",
+      "Ansatz_3":"",
+      "Funktion_Gelenk1":"Art.coxae: Flexion und AR",
+      "Funktion_Gelenk2":"LWS: Beidseitig: Aufrichtung des Rumpfes aus der Rückenlage - Einseitig: Lateralflexion ipsilateral",
+      "Funktion_Gelenk3":"",
+      "Innervation":"N.femoralis (und Äste des Plexus lumbalis)",
+    }
+  ]
+}
